@@ -1,0 +1,32 @@
+Project: Build the app that calculates bus ticket price based on following conditions
+         Distance from User (km), age, trip type (One Way, Round-Trip) and seat number information.
+
+         User should provide following details:
+         1. Distance
+         2. Trip type
+         3. Age
+         4. Seat No
+
+         Requirements:
+         Distance & Age should be positive numbers
+         Trip Type should be 1 or 2
+         - Otherwise Warning Errors should be printed.
+
+         Total Calculation:
+         1. Check for trip type. If the person chosen the journey type round trip, 20% discount is applied
+            on the ticket price.
+         2. Take the fare as 1GBP/km per distance. (*2 for round trip). First, calculate the total price of the
+            trip and then apply the following rules to the customer according to the conditions;
+         3-Single Seat Fee:
+            If the seat number is 3 or a multiple of 3, the ticket price is increased by 20%.
+         5-Age discount:
+            If the person is younger than 12 years, 50% discount is applied on the ticket price.
+            If the person is between the ages of 12-24, a 10% discount is applied on the ticket price.
+            If the person is over 65 years, a 30% discount is applied on the ticket price.
+         6. Print actual and discounted prices:
+            Full Name
+            Ticket Number
+            Destination
+            Type
+            Price
+            Discounted Price
