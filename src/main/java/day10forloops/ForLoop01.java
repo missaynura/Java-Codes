@@ -19,18 +19,18 @@ public class ForLoop01 {
 
 
         //e2. type code to print integers = from 12 to 9
-        for(int i=12; i>9;i--){
+        for (int i = 12; i > 9; i--) {
             System.out.println(i);
         }
 
         //e3. type code to print even integers from 7 to 12 == math language
-        for(int i=8; i<13; i+=2){
+        for (int i = 8; i < 13; i += 2) {
             System.out.println(i);
         }
 
         //2. way == better, just java language
-        for(int i=7;i<13;i++){
-            if(i%2==0){
+        for (int i = 7; i < 13; i++) {
+            if (i % 2 == 0) {
                 System.out.println(i);
             }
         }

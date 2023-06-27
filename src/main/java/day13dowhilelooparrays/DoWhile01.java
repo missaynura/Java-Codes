@@ -17,26 +17,23 @@ public class DoWhile01 {
        */
         Scanner input = new Scanner(System.in);
         int counter = 0;
-        do{
-            if(counter==3){
+        do {
+            if (counter == 3) {
                 System.out.println("your account is blocked");
                 break;
             }
 
             System.out.println("enter your name and password");
-            String userName= input.next();
-            String pwd=input.next();
+            String userName = input.next();
+            String pwd = input.next();
 
-            if(userName.equals("admin") && pwd.equals("pwd123")){
+            if (userName.equals("admin") && pwd.equals("pwd123")) {
                 System.out.println("you are in your account");
                 break;
-            }else{
+            } else {
                 System.out.println("your password or username is wrong");
             }
             counter++;
-        }while(true);
-
-
+        } while (true);
     }
-
 }

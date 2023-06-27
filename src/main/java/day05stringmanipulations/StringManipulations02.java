@@ -1,11 +1,12 @@
 package day05stringmanipulations;
 
 import java.util.Scanner;
-    /*
-    1. replaceAll(regex, newCharacter) method puts new character instead of group of data taken by regex
-    2. contains(char) checks if the given character exists in the string or not, Does NOT work with regex
-    3. length() gives you the number of characters in the string
-     */
+
+/*
+1. replaceAll(regex, newCharacter) method puts new character instead of group of data taken by regex
+2. contains(char) checks if the given character exists in the string or not, Does NOT work with regex
+3. length() gives you the number of characters in the string
+ */
 public class StringManipulations02 {
 
     /*
@@ -39,22 +40,22 @@ public class StringManipulations02 {
         String pwd = input.nextLine();
 
         //1. password must have at least 8 character
-        boolean firstRule = pwd.length()>7;
+        boolean firstRule = pwd.length() > 7;
 
         //   2. must not have space character
         boolean secondRule = !pwd.contains(" ");
 
         // 3. must have at least an upper case character
-        boolean thirdRule = pwd.replaceAll("[^A-Z]", "").length()>0;
+        boolean thirdRule = pwd.replaceAll("[^A-Z]", "").length() > 0;
 
         //4. must have at least a lower case character
-        boolean fourthRule = pwd.replaceAll("[^a-z]", "").length()>0;
+        boolean fourthRule = pwd.replaceAll("[^a-z]", "").length() > 0;
 
         // 5. must have at least a symbol (characters different from letters and digits)
-        boolean fifthRule = pwd.replaceAll("[A-Za-z0-9]","").length()>0;
+        boolean fifthRule = pwd.replaceAll("[A-Za-z0-9]", "").length() > 0;
 
         //  6. must have at least a digit
-        boolean sixthRule = pwd.replaceAll("[^0-9]", "").length()>0;
+        boolean sixthRule = pwd.replaceAll("[^0-9]", "").length() > 0;
 
         System.out.println(firstRule && secondRule && thirdRule && fourthRule && fifthRule && sixthRule);
     }

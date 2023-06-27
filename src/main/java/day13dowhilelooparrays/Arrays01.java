@@ -29,21 +29,19 @@ public class Arrays01 {
 
         //1.Way
         int total = 0; // create container for a new data
-        for(int i=0; i<stdNames.length; i++){
+        for (int i = 0; i < stdNames.length; i++) {
 
-           total = total + stdNames[i].length(); //number of elements
+            total = total + stdNames[i].length(); //number of elements
         }
         System.out.println(total);
 
 
         //2.way: for each loop == enhanced loop
         int sum = 0;
-                                // [Mary, Jim, Tom, John, Alex]
-        for(String w : stdNames){ // w== string name
+        // [Mary, Jim, Tom, John, Alex]
+        for (String w : stdNames) { // w== string name
             sum = sum + w.length();
         }
         System.out.println(sum);
-
     }
-
 }

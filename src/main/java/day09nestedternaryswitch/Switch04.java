@@ -1,6 +1,7 @@
 package day09nestedternaryswitch;
 
 import java.util.Scanner;
+
 //Switch Statement can be used with String, int, char,
 // but cannot be used with long, double, float, boolean
 public class Switch04 {
@@ -14,21 +15,21 @@ public class Switch04 {
         int a = input.nextInt();
         int b = input.nextInt();
 
-        switch (opr){
+        switch (opr) {
             case '+':
-                System.out.println(a+b);
+                System.out.println(a + b);
                 break;
             case '-':
-                System.out.println(a-b);
+                System.out.println(a - b);
                 break;
             case '*':
-                System.out.println(a + "x" + b + "=" + (a*b));
+                System.out.println(a + "x" + b + "=" + (a * b));
                 break;
             case '/':
-                System.out.println(a/b);
+                System.out.println(a / b);
                 break;
             case '%':
-                System.out.println(a*b/100);
+                System.out.println(a * b / 100);
                 break;
             default:
                 System.out.println("invalid");

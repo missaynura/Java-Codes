@@ -10,7 +10,7 @@ public class Switch02 {
         System.out.println("enter month name");
         int monthNum = input.nextInt();
 
-        switch (monthNum){
+        switch (monthNum) {
             case 1:
                 System.out.println("January");
             case 2:
@@ -39,7 +39,5 @@ public class Switch02 {
             default:
                 System.out.println("invalid number");
         }
-
-
     }
 }

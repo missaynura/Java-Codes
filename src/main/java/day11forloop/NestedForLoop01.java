@@ -22,9 +22,9 @@ public class NestedForLoop01 {
                           Day: 3
                           ....
          */
-        for(int i=1;i<3; i++){
+        for (int i = 1; i < 3; i++) {
             System.out.println("Week: " + i);
-            for(int k=1; k<4; k++){
+            for (int k = 1; k < 4; k++) {
                 System.out.println("  Day: " + k);
             }
         }
@@ -42,13 +42,11 @@ public class NestedForLoop01 {
         int rows = scanner.nextInt();
         int columns = scanner.nextInt();
 
-        for(int i=1; i<=rows;i++){
-            for(int k=1; k<=columns; k++){
+        for (int i = 1; i <= rows; i++) {
+            for (int k = 1; k <= columns; k++) {
                 System.out.print("*");
             }
             System.out.println();
         }
-
-
     }
 }

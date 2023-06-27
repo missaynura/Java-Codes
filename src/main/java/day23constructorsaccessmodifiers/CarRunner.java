@@ -14,6 +14,4 @@ public class CarRunner {
         System.out.println(car3.price);
 
     }
-
-
 }

@@ -13,38 +13,34 @@ public class DoWhileLoop01 {
         // if the condition is false loop body will  be executed even once.
         // I mean zero execution is impossible in do-while-loop
 
-    //while loop
-        int i=1;
-        while(i<1){
+        //while loop
+        int i = 1;
+        while (i < 1) {
             System.out.println("Im while loop"); // will not print
             i++;
         }
         //do-while loop
-        int k=1;
-        do{
+        int k = 1;
+        do {
             System.out.println("Im do-while loop");
             k++;
-        }while(k<1);
+        } while (k < 1);
 
 
         //e1. ask user to enter an integer
         //if the integer is less thatn 100, tell user "Won"
         //otherwise, tell user "lost"
         Scanner input = new Scanner(System.in);
-
-        do{
+        do {
             System.out.println("enter an integer");
             int num = input.nextInt();
 
-            if(num<100){
+            if (num < 100) {
                 System.out.println("Win");
-            }else{
+            } else {
                 System.out.println("lost");
                 break;
             }
-
-        }while(true);
-
-
+        } while (true);
     }
 }

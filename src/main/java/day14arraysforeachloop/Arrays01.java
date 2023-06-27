@@ -19,7 +19,7 @@ public class Arrays01 {
         System.out.println(Arrays.toString(nums));//[12,8,10,7]
         int sum = 0; // we want to create a new container for summing of all elements
 
-        for(int w : nums){
+        for (int w : nums) {
             sum = sum + w;
         }
         System.out.println(sum);
@@ -35,8 +35,8 @@ public class Arrays01 {
         cities[4] = "Paris";
         System.out.println(Arrays.toString(cities));
 
-        for(String w1 : cities){
-            if(w1.length()>5){
+        for (String w1 : cities) {
+            if (w1.length() > 5) {
                 System.out.println(w1 + " ");
             }
 
@@ -51,9 +51,9 @@ public class Arrays01 {
             cities[4] = "Paris";
             System.out.println(Arrays.toString(city));
 
-            for(String w : city){
+            for (String w : city) {
                 System.out.print(w + " "); // put before if, if you want to print London too
-                if(w.equals("London")){
+                if (w.equals("London")) {
                     break;
                 }
 
@@ -66,15 +66,13 @@ public class Arrays01 {
                 c[3] = "Rome";
                 c[4] = "Paris";
                 System.out.println(Arrays.toString(c));
-                for(String w2 : c){
-                    if(w2.equals("Miami") || w2.equals("London")){
+                for (String w2 : c) {
+                    if (w2.equals("Miami") || w2.equals("London")) {
                         continue;
                     }
                     System.out.print(w2 + " ");
                 }
-
             }
-
         }
     }
 }

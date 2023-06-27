@@ -7,9 +7,11 @@ public class Car {
     public int year;
     public int price;
 
+    //Default Constructor
     public Car() {
     }
 
+    //Constructor with parameters
     public Car(String make, String model, int year, int price) {
         this.make = make;
         this.model = model;

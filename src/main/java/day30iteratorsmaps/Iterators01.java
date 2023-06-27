@@ -28,9 +28,8 @@ public class Iterators01 {
         //how to use Iterator
         Iterator<String> itr = myList.iterator();// converts the list to Iterator
 
-        while (itr.hasNext()){ // hasNext() asks the pointer if there is any element after the pointer or not
+        while (itr.hasNext()) { // hasNext() asks the pointer if there is any element after the pointer or not
             itr.next();//next() takes the pointer to the right and returns the jumped over element
-
             itr.remove();//remove() removes the element next() method returned
         }
         System.out.println(myList);// []
@@ -45,16 +44,14 @@ public class Iterators01 {
 
         ListIterator<String> lr = yourList.listIterator(); // converts the list to ListIterator
 
-        while (lr.hasNext()){
+        while (lr.hasNext()) {
             lr.next();
-
         }
 
-        while (lr.hasPrevious()){
-            String el=lr.previous();
+        while (lr.hasPrevious()) {
+            String el = lr.previous();
             lr.set(el + "!");
         }
-
         System.out.println(yourList);
     }
 }

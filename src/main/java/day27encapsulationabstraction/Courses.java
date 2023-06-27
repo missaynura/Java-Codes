@@ -1,4 +1,5 @@
 package day27encapsulationabstraction;
+
 /*
     1. Method without body is called abstract method.
     2. sometimes no child uses the body of the method in the parent class so no need to put body for the method.
@@ -28,9 +29,7 @@ package day27encapsulationabstraction;
  */
 public abstract class Courses {
     public abstract void math();
-
-    public void art(){
+    public void art() {
         System.out.println("Learn paninting");
     }
-
 }

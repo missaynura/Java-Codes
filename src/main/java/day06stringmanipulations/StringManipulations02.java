@@ -10,7 +10,6 @@ public class StringManipulations02 {
     6. Index of last character in a string is "length()-1" *******************
     7. isEmpty() returns true just for empty strings
     8. isBlank() returns true for empty strings and space characters
-
      */
 
     public static void main(String[] args) {
@@ -26,8 +25,8 @@ public class StringManipulations02 {
         //      ANKARA ==true    Ankara == true  Miami == false
 
         String city = "Ankara";
-        String fistChar = city.substring(0,1);
-        String lastChar = city.substring(city.length()-1);
+        String fistChar = city.substring(0, 1);
+        String lastChar = city.substring(city.length() - 1);
         boolean isSame = fistChar.equalsIgnoreCase(lastChar);
         System.out.println("Is first and last characters same? " + isSame);
 
@@ -36,7 +35,7 @@ public class StringManipulations02 {
         String str = "";
 
         //1. Way:
-        boolean isEmpty1 = str.length()==0;
+        boolean isEmpty1 = str.length() == 0;
         System.out.println(isEmpty1);
 
         //2.Way:
@@ -48,6 +47,5 @@ public class StringManipulations02 {
         String st = "    ";
         boolean isBlank = st.isBlank();
         System.out.println(isBlank);
-
     }
 }

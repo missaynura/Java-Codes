@@ -13,15 +13,15 @@ public class IfStatement03 {
         System.out.println("enter your age");
         int age = input.nextInt();
 
-        if(age<0){
+        if (age < 0) {
             System.out.println("negative age is invalid");
-        }else if(age<5){
+        } else if (age < 5) {
             System.out.println("baby");
-        }else if(age<13){
+        } else if (age < 13) {
             System.out.println("kid");
-        }else if(age<21){
+        } else if (age < 21) {
             System.out.println("adult");
-        }else{
+        } else {
             System.out.println("undefined");
         }
     }

@@ -6,7 +6,7 @@ public class Wrapper01 {
     public static void main(String[] args) {
 
         /*
-        1. Java created Wrapper Class for evey primitive data type by adding methods next to the primitive value
+        1. Java created Wrapper Class for every primitive data type by adding methods next to the primitive value
         2. Wrapper classes are non-primitive that is why they are stored in Heap memory
         3. byte== Byte
            short == Short
@@ -32,13 +32,12 @@ public class Wrapper01 {
         System.out.println(Float.SIZE); // 32
         System.out.println(Long.SIZE); // 64
 
-
         // Note: MIN_VALUE, MAX_VALUE, etc. are constant variables containing constant values
         // If a variable has constant value, use just upper cases to name and _ betwen the words.
 
         System.out.println(Integer.max(12, 43)); // 43
         System.out.println(Long.min(23, 124)); // 23
-        System.out.println(Integer.parseInt("234") +1 ); //235
+        System.out.println(Integer.parseInt("234") + 1); //235
 
         //How to convert primitive data type to its wrapper class or how to convert wrapper class to its primitive d.t.
 
@@ -49,7 +48,5 @@ public class Wrapper01 {
         //Converting wrapper class to its primitive data type is called Unboxing
         Short s = 245;
         short primitiveS = s;
-
     }
-
 }

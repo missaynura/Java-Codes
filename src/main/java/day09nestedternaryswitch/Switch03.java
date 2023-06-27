@@ -4,7 +4,7 @@ public class Switch03 {
     public static void main(String[] args) {
         //type code to print vowels for a,e,i,o,u and not vowels for other letters
         String ch = "e";
-        switch (ch.toLowerCase()){
+        switch (ch.toLowerCase()) {
             case "a":
             case "e":
             case "i":
@@ -35,8 +35,7 @@ public class Switch03 {
                 System.out.println("not vowel");
                 break;
             default:
-            System.out.println("invalid");
+                System.out.println("invalid");
         }
-
     }
 }

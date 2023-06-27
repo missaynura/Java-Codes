@@ -14,13 +14,11 @@ public class TypeCasting01 {
 
         // byte - short - int - long - float - double == do ExplicitNarrowing
         long n = 5674;
-        short h = (short)n;
+        short h = (short) n;
         System.out.println(h);
 
         float f = 12.78F;
-        int i = (int)f;
+        int i = (int) f;
         System.out.println(i); //12
-
     }
-
 }

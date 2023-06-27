@@ -89,7 +89,5 @@ public class Maps01 {
         for(Map.Entry<String,Integer> w : allEntries){
             System.out.print(w.getValue() + " - " + w.getKey());//400 - USA  85 - Turkey   99 - Germany
         }
-
-
     }
 }

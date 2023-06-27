@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Scanner01 {
 
     /*
-    1. next() is for getting just a sinble word from user
+    1. next() is for getting just a single word from user
     2. nextLine() is for getting all the string user entered
     3. nextInt() is for getting integer from user
     4. nextDouble() is for getting double from user

@@ -16,9 +16,8 @@ public class LinkedList01 {
 
      */
     public static void main(String[] args) {
-
         //How to create LinkedList
-        LinkedList<Character> m=new LinkedList<>();
+        LinkedList<Character> m = new LinkedList<>();
 
         //How to add nodes (like elements in Arrays) in a LinkedList
         m.add('A');
@@ -27,7 +26,7 @@ public class LinkedList01 {
         m.addLast('R');
         System.out.println(m);// [K, H, A, R]
 
-        LinkedList<Character> n=new LinkedList<>();
+        LinkedList<Character> n = new LinkedList<>();
         n.add('s');
         n.add('b');
         n.add('z');
@@ -61,7 +60,7 @@ public class LinkedList01 {
         m.removeLast();
         System.out.println(m);//[b, z, s]
 
-        LinkedList<Integer> r=new LinkedList<>();
+        LinkedList<Integer> r = new LinkedList<>();
         r.add(12);
         r.add(5);
         r.add(14);
@@ -101,7 +100,6 @@ public class LinkedList01 {
         Retrieves, but does not remove, the first element of this list.
         Returns: the head of this list
         Throws: NoSuchElementException – if this list is empty
-
          */
 
         //Retrieves, but does not remove, the head (first element) of this list.

@@ -30,23 +30,23 @@ package day27encapsulationabstraction;
             happens in different classes, so to be private matters.
             d. static methods cannot be overridden but can be overloaded. Because static methods are common for all
             objects, if you change the implementation by using a single object, other objects will be affected as well.
-            This can create an issue in our application. that's why Java doesn't let us to override static methods.
+            This can create an issue in our application. that's why Java doesn't let us override static methods.
 
                     Can you override main method? no, because it is static.
                     Note1: other name of method overloading is static polymorphism, because static methods can be overloaded.
                             Other name of method overriding is dynamic polymorphism.
 
                     Note2: could you explain "final" keyword?
-                            final keyword can be used for i)variables, ii) meothds iii) classes
+                            final keyword can be used for i)variables, ii) methods iii) classes
                     i) if you use final keyword for a variable
                         a) you have to initialize(assign value) the variable
                         b) you cannot change the initial value
                     ii) if you use final keyword for a method, its body cannot be updated
-                    because of that final methods cannot be overriden.
+                    because of that final methods cannot be overridden.
                     iii) if you use final keyword for a class, the class cannot have a child class. (if you dont want the class to
                     have a child class make it final). Final class can be a child class, but it cannot have a child class.
-            e. final methods cannot be overriden but can be overloaded. because in overriding we change the
-            method body, but final methods do not let us to change the method body.
+            e. final methods cannot be overridden but can be overloaded. because in overriding we change the
+            method body, but final methods do not let us change the method body.
 
 
      */

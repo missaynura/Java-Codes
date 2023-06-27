@@ -29,21 +29,20 @@ public class NestedIf01 {
         System.out.println("enter password");
         char pwdInitial = input.next().charAt(0);
 
-        if(pwdInitial>='A' && pwdInitial<='Z'){
-            if(pwdInitial=='A'){
+        if (pwdInitial >= 'A' && pwdInitial <= 'Z') {
+            if (pwdInitial == 'A') {
                 System.out.println("valid password");
-            }else{
+            } else {
                 System.out.println("invalid password");
             }
-        }else if(pwdInitial>='a' && pwdInitial<='z'){
-            if(pwdInitial=='z'){
+        } else if (pwdInitial >= 'a' && pwdInitial <= 'z') {
+            if (pwdInitial == 'z') {
                 System.out.println("valid password");
-            }else{
+            } else {
                 System.out.println("invalid password");
             }
-        }else{
+        } else {
             System.out.println("invalid password");
         }
-
     }
 }

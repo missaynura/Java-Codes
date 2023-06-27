@@ -3,26 +3,26 @@ package day02variables;
 public class Variables03 {
 
     public static void main(String[] args) {
-        // example 1: create two short variables and print their sum on the console
+        //Example 1: create two short variables and print their sum on the console
         short s1 = 12;
         short s2 = 13;
         System.out.println(s1 + s2);
 
-        // example 2: create two variables for prices then print their sum on the console.
-
+        //Example 2: create two variables for prices then print their sum on the console.
         double shirtPrice = 12.99;
         double shoesPrice = 123.3;
         System.out.println(shirtPrice + shoesPrice);
 
-        //example 3: create a variable for student's age and another variable for population of a country.
-        // print it out.
+        //Example 3: create a variable for student's age and another variable for
+        // population of a country. print it out.
 
         byte stdAge = 22;
         int populationOfGermany = 830000;
 
         System.out.println(populationOfGermany - stdAge);
 
-        //Note: if you use different data types in a mathematical operation, the result will be in the largest data type.
+        //Note: if you use different data types in a mathematical operation,
+        // the result will be in the largest data type.
         // 4/1.2 == double  2.4F * 5 == float
 
         //Note: if you use same data type in a mathematical operation result will be in the data type

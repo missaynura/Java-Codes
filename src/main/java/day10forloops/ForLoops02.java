@@ -21,13 +21,11 @@ public class ForLoops02 {
 
         //Example 3: Type code to reverse a String       IMPORTANT
         //           For Example: Tom ==> moT
-
         String u = "Mark";
         String rev = "";
         for(int i=u.length()-1;i>=0;i--){
             rev = rev + u.charAt(i);
         }
         System.out.println(rev); // must be outside of the loop
-
     }
 }

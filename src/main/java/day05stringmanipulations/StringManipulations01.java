@@ -8,7 +8,6 @@ public class StringManipulations01 {
         3. substring (s, e) takes the characters starting from s(inclusive) ending at e (exclusive)
         4. substring(s) takes the characters starting from s (inclusive) to the end of the string
         5. split("a") method splits the String from the given character
-
          */
     public static void main(String[] args) {
         //1.Way:
@@ -39,8 +38,5 @@ public class StringManipulations01 {
 
         String initialOfLastName = nameInLowerCase.split(" ")[1].substring(0,1).toUpperCase();
         System.out.println(initialOfLastName + nameInLowerCase.split(" ")[1].substring(1));
-
-
     }
-
 }

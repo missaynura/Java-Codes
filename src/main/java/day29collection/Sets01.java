@@ -26,7 +26,7 @@ public class Sets01 {
     public static void main(String[] args) {
 
         //pritns elements in added order
-        LinkedHashSet<Integer> lhs=new LinkedHashSet<>();
+        LinkedHashSet<Integer> lhs = new LinkedHashSet<>();
         lhs.add(12);
         lhs.add(5);
         lhs.add(19);
@@ -37,7 +37,7 @@ public class Sets01 {
         lhs.add(null);
         System.out.println(lhs); //[12, 5, 19, 15, 6, 23]
 
-        LinkedHashSet<Integer> mhs=new LinkedHashSet<>();
+        LinkedHashSet<Integer> mhs = new LinkedHashSet<>();
         mhs.add(43);
         mhs.add(19);
         mhs.add(6);
@@ -56,7 +56,7 @@ public class Sets01 {
         long t1 = System.nanoTime();
 
         //gives elements in random order
-        HashSet<String> hs=new HashSet<>();
+        HashSet<String> hs = new HashSet<>();
         hs.add("Germany");
         hs.add("Albania");
         hs.add("Belgium");
@@ -70,7 +70,7 @@ public class Sets01 {
         long t2 = System.nanoTime();
 
         //gives elements in natural order
-        TreeSet<String> ts=new TreeSet<>();
+        TreeSet<String> ts = new TreeSet<>();
         ts.add("Germany");
         ts.add("Albania");
         ts.add("Belgium");
@@ -86,7 +86,7 @@ public class Sets01 {
             because it is so slow. Use HashSet to add elements then convert the HashSet to TreeSet.
             So you will have unique elements in natural order and you will not be slow.
          */
-        HashSet<String> hs2=new HashSet<>();
+        HashSet<String> hs2 = new HashSet<>();
         hs2.add("Germany");
         hs2.add("Albania");
         hs2.add("Belgium");
@@ -100,10 +100,8 @@ public class Sets01 {
         long t4 = System.nanoTime();
 
         //calculates the difference between HashSet and TreeSet take
-        System.out.println(t2-t1); //109200 nano
-        System.out.println(t3-t2); //1655300 nano
-        System.out.println(t4-t3); //96800 nano
-
-
+        System.out.println(t2 - t1); //109200 nano
+        System.out.println(t3 - t2); //1655300 nano
+        System.out.println(t4 - t3); //96800 nano
     }
 }

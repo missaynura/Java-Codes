@@ -21,7 +21,7 @@ public class StringManipulations01 {
         String s = "I love Java.";
 
         boolean isLastDot = s.endsWith(".");
-        boolean isInitialUpper = s.charAt(0)>='A' && s.charAt(0)<='Z';
+        boolean isInitialUpper = s.charAt(0) >= 'A' && s.charAt(0) <= 'Z';
         System.out.println(isLastDot && isInitialUpper);
 
         //Example 2. type code to find the sum of the prices given as strings
@@ -44,9 +44,8 @@ public class StringManipulations01 {
         String name = "   tom Hanks   ";
         String trimmedName = name.trim();
 
-        String firstInitial = trimmedName.substring(0,1).toUpperCase();
-        String lastInitial = trimmedName.split(" ")[1].substring(0,1).toUpperCase();
+        String firstInitial = trimmedName.substring(0, 1).toUpperCase();
+        String lastInitial = trimmedName.split(" ")[1].substring(0, 1).toUpperCase();
         System.out.println(firstInitial + lastInitial);
     }
-
 }

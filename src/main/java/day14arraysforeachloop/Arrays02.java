@@ -14,21 +14,20 @@ public class Arrays02 {
         int n = input.nextInt();
 
         String[] names = new String[n];
-        for(int i=0; i<n; i++){
-            System.out.println("please enter " + (i+1) + " student name, to quit press 'q'");
+        for (int i = 0; i < n; i++) {
+            System.out.println("please enter " + (i + 1) + " student name, to quit press 'q'");
             String stdName = input.next();
-            if(!stdName.equalsIgnoreCase("Q")){
+            if (!stdName.equalsIgnoreCase("Q")) {
                 names[i] = stdName;
-            }else{
+            } else {
                 break;
             }
         }
-        for(String w : names){
-            if(w==null){
+        for (String w : names) {
+            if (w == null) {
                 break;
             }
-                System.out.print(w + "");
+            System.out.print(w + "");
         }
-
     }
 }

@@ -15,8 +15,8 @@ public class NestedForLoop02 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter row number");
         int rows = scanner.nextInt();
-        for(int i=1; i<=rows; i++){
-            for(int k=1; k<=i; k++){
+        for (int i = 1; i <= rows; i++) {
+            for (int k = 1; k <= i; k++) {
                 System.out.print(k + "   ");
             }
             System.out.println();

@@ -1,22 +1,27 @@
 package day01variables;
 
 public class Variables01 {
-    // how to create a variable
+
+    // How to create a variable
     // In Java "=" is an assignment operator
+
     public int ageOfAli = 23;
     public String nameofAli = "Ali Can";
 
     /*
-    Data Type in Java. There are 2 main data types: 1. primitive data types. 2. non-primitive d.types.
-    1. Primitive d. types:
+        Data Type in Java. There are 2 main data types:
+        1. primitive data types. 2. non-primitive data types.
+        1. Primitive data types:
         byte - short - int - long - float - double - char - boolean
-        Numeric d.types:        byte - short - int - long - float - double
-        Not numeric d.types:    char and boolean.
+
+        Numeric data types:        byte - short - int - long - float - double
+        Not numeric data types:    char and boolean.
 
         boolean: has 2 values "true" or "false"
                  uses just 1 bin in the memory
-
+        2. Non-primitive data types: String
      */
+
     public boolean isRetired = false;
 
 }

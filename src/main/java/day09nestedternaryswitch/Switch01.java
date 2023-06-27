@@ -7,26 +7,26 @@ public class Switch01 {
 
         //1.way if-else-if
         String dayName = "monday";
-        if(dayName.equalsIgnoreCase("monday")){
+        if (dayName.equalsIgnoreCase("monday")) {
             System.out.println(1);
-        }else if(dayName.equalsIgnoreCase("tuesday")){
+        } else if (dayName.equalsIgnoreCase("tuesday")) {
             System.out.println(2);
-        }else if(dayName.equalsIgnoreCase("wednesday")){
+        } else if (dayName.equalsIgnoreCase("wednesday")) {
             System.out.println(3);
-        }else if(dayName.equalsIgnoreCase("thursday")){
+        } else if (dayName.equalsIgnoreCase("thursday")) {
             System.out.println(4);
-        }else if(dayName.equalsIgnoreCase("friday")){
+        } else if (dayName.equalsIgnoreCase("friday")) {
             System.out.println(5);
-        }else if(dayName.equalsIgnoreCase("saturday")){
+        } else if (dayName.equalsIgnoreCase("saturday")) {
             System.out.println(6);
-        }else if(dayName.equalsIgnoreCase("sunday")){
+        } else if (dayName.equalsIgnoreCase("sunday")) {
             System.out.println(7);
-        }else{
+        } else {
             System.out.println("invalid");
         }
 
         //2. way: switch statement
-        switch(dayName.toLowerCase()){
+        switch (dayName.toLowerCase()) {
             case "sunday":
                 System.out.println(7);
                 break;
@@ -52,8 +52,5 @@ public class Switch01 {
                 System.out.println("invalid entry");
                 break;
         }
-
-        }
-
-
     }
+}

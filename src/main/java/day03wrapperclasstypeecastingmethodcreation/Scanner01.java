@@ -11,7 +11,5 @@ public class Scanner01 {
         System.out.println("hey user, enter your first name...");
         String yourName = subscriptionForm.next();
         System.out.println("Your name is " + yourName);
-
     }
-
 }
