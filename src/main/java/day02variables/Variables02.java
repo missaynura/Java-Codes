@@ -1,14 +1,17 @@
 package day02variables;
 
 public class Variables02 {
-    /*
-       non-primitive data types: they can be created by Java. e.g. String, Arrays, Scanner, etc.
-                               and developers, e.g. Variables01, etc.
-                               are infinitely many.
 
-        String data type: is for multiple characters.
-                                put the value between double quotes.
+    //--------------- Primitive and Non-primitive Data Types --------------------
+    /*
+       non-primitive data types:    they can be created by Java. e.g. String, Arrays, Scanner, etc.
+                                    and developers, e.g. Variables01, etc.
+                                    are infinitely many.
+
+        String data type:           is for multiple characters.
+                                    put the value between double quotes.
     */
+
     public String nameOfStudent = "Tom Hanks";
 
     /*
@@ -36,10 +39,10 @@ public class Variables02 {
 
         void is one of the return types in a method.
         if a method does not produce a new data make the return type void.
+    */
 
-        how to create a main method.
-     */
 
+    //How to create a main() method:
     public static void main(String[] args) {
 
         String countryName = "Germany";

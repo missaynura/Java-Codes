@@ -3,6 +3,7 @@ package day02variables;
 public class Variables03 {
 
     public static void main(String[] args) {
+
         //Example 1: create two short variables and print their sum on the console
         short s1 = 12;
         short s2 = 13;
@@ -20,24 +21,31 @@ public class Variables03 {
         int populationOfGermany = 830000;
 
         System.out.println(populationOfGermany - stdAge);
+        /*
+           Note: if you use different data types in a mathematical operation,
+                 the result will be in the largest data type.
+                 --> 4/1.2 == double  2.4F * 5 == float
 
-        //Note: if you use different data types in a mathematical operation,
-        // the result will be in the largest data type.
-        // 4/1.2 == double  2.4F * 5 == float
+           Note: if you use same data type in a mathematical operation result
+                 will be in the same data type
+                 -> When you divide an int by another int, the result can be double like in 6/5=1.2
+                    but Java makes the data type of the result in int as well.
+                 --> 6/2 == int   6/5 == int
+        */
 
-        //Note: if you use same data type in a mathematical operation result will be in the data type
-        //When you divide an int by another int, the result can be double like in 6/5=1.2
-        //but Java makes the data type of the result in int as well.
-        // 6/2 == int   6/5 == int
-        System.out.println(6/5);
+        System.out.println(6/5);//1
 
-        //if you want to see 1.2 when you devide 6 by 5:
+        //if you want to see 1.2 when you divide 6 by 5:
         System.out.println(6/5.0);
 
         //Example 1: estimate the result of the given operation
         // (2+ 4.6) / 3 - 4 * 2
-        //Note: order of operations in Math:1. do the operations in the paranthesis
-        //                                  2. do multiplications and divisions (from left to right)
-        //                                  3. do additions and substractions
+        /*
+            Note: order of operations in Math:
+                                        1. do the operations in the paranthesis
+                                        2. do multiplications and divisions (from left to right)
+                                        3. do additions and substractions
+
+         */
     }
 }

@@ -2,12 +2,9 @@ package day01variables;
 
 public class Variables01 {
 
-    //How to create a variable
-    //In Java "=" is an assignment operator
+    //--------------- How to create a variable --------------------
 
-    public int ageOfAli = 23;
-    public String nameofAli = "Ali Can";
-
+    //Note: in Java "=" is an assignment operator
     /*
         Data Type in Java.
         There are 2 main data types:
@@ -24,6 +21,9 @@ public class Variables01 {
         2. Non-primitive data types: String
      */
 
+    //Examples:
+    public int ageOfAli = 23;
+    public String nameofAli = "Ali Can";
     public boolean isRetired = false;
 
 }

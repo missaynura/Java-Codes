@@ -1,6 +1,9 @@
 package day02variables;
 
 public class Variables01 {
+
+    //--------------- Primitive and Non-primitive Data Types --------------------
+
     /*
         Primitive data types: byte - short - int - long - float - double - char - boolean
 
@@ -9,7 +12,7 @@ public class Variables01 {
                      char                       -> is used for single characters
                      boolean is for true and false
 
-        Char data type:     is for a single character. e.g. A, ?, 5,
+        char data type:     is for a single character. e.g. A, ?, 5,
                             Use single quotes for char values!
                             char uses 16 bits(2 bytes) in memory.
                             --> public char initial = 'A';
