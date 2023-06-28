@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Scanner03 {
     public static void main(String[] args) {
+        //--------------- Scanner Class --------------------
         //example 1: ask user to ender 5 digit number
         // print the sum of the first two and the last two digits
         //   if the number is 50650 == 50 + 50

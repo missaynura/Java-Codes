@@ -4,8 +4,9 @@ import java.util.Scanner;
 
 public class Scanner02 {
     public static void main(String[] args) {
-
-        //Example 1. ask user to enter two numbers then do addition and multiplicaitons operations with the numbers
+        //--------------- Scanner Class --------------------
+        //Example 1. ask user to enter two numbers then do addition and multiplicaitons
+        // operations with the numbers
 
         //1. Step: create a Scanner object
         Scanner inputInfo = new Scanner(System.in);
@@ -19,7 +20,6 @@ public class Scanner02 {
         double number2 = inputInfo.nextDouble();
 
         System.out.println("the sum is " + (number1 + number2));
-
         System.out.println("the multiplication is " + number1*number2);
     }
 
