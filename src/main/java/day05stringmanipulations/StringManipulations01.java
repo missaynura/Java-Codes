@@ -1,7 +1,7 @@
 package day05stringmanipulations;
 
 public class StringManipulations01 {
-
+    //--------------- StringManipulation --------------------
         /*
         1. toUpperCase() method converts all characters to upper case
         2. toLowerCase() method converts all characters to lower case

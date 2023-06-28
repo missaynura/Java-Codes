@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Scanner04 {
     public static void main(String[] args) {
+        //--------------- Scanner Class --------------------
         //example 1: ask user to enter width and the length of a rectangle then calculate the perimeter and the area
         Scanner inputInto = new Scanner(System.in);
         System.out.println("please enter width and length of a rectangle");
