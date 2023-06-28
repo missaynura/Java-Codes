@@ -4,6 +4,10 @@ public class MethodCreation01 {
     public static void main(String[] args) {
 
         //--------------- Method Creation --------------------
+        /*
+             Note:  if a method just prints something on the console make return type as void
+                    if a method doesn't return a new data, its return type must be void
+        */
 
         // Using a method inside the main method is called -> Method Call
         System.out.println(add(3, 5)); //8
@@ -42,8 +46,4 @@ public class MethodCreation01 {
     public static void printNameWithExclamationMark(String name) {
         System.out.println(name + "!");
     }
-    /*
-        Note: if a method just prints something on the console make return type as void
-              if a method doesn't return a new data, its return type must be void
-     */
 }
