@@ -20,17 +20,17 @@ public class Scanner01 {
         Scanner inputInfo = new Scanner(System.in);
 
         //2. Step: give a message to user about what to do
-        System.out.println("please enter your full name:");
+        System.out.println("Please enter your full name: ");
 
         //3. Step: use appropriate method to get data from user
         String fullName = inputInfo.nextLine();
-        System.out.println("please enter your age");
+        System.out.println("Please enter your age: ");
 
         byte age = inputInfo.nextByte();
-        System.out.println("please enter your height");
+        System.out.println("Please enter your height: ");
 
         double height = inputInfo.nextDouble();
-        System.out.println("please tell me, are you married?");
+        System.out.println("Please enter your marital status: ");
 
         boolean status = inputInfo.nextBoolean();
 
