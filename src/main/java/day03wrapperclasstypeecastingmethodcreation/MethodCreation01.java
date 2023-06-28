@@ -5,7 +5,6 @@ public class MethodCreation01 {
 
         //--------------- Method Creation --------------------
 
-
         // Using a method inside the main method is called -> Method Call
         System.out.println(add(3, 5)); //8
         System.out.println(multiply(5, 4, 2));//40

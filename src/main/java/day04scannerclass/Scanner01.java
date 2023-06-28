@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Scanner01 {
 
+    //--------------- Scanner Classes --------------------
     /*
     1. next() is for getting just a single word from user
     2. nextLine() is for getting all the string user entered
