@@ -1,8 +1,10 @@
 package ProjectBusTicket;
 
 public class BusTicket {
+    
+    //------------------ Bus Ticket Project -------------------
+    
     /*
-        This includes:
         Requirements:
         1. ticketType
         2. seatNumber
@@ -16,11 +18,5 @@ public class BusTicket {
         10. getPrice
         11. setPrice
         12. printTicket
-
-
      */
-
-
-
-
 }
