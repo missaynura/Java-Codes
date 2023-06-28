@@ -7,6 +7,7 @@ public class BusTicketReservationCalcRunner {
 
     }
 
+    //------------------- Bus Ticket Reservation Calculator Runner Class ---------------------
 
     public static void start() {
         System.out.println("Welcome to the Bus Ticket Reservation Portal!");
@@ -27,9 +28,5 @@ public class BusTicketReservationCalcRunner {
                 System.out.println("You have entered incorrectly. Enter 1 for One-Way\n 2 for Round-Trip");
             }
         } while (!ticketTypeExists);
-
-
     }
-
-
 }
