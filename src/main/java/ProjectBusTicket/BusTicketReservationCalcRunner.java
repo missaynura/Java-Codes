@@ -1,14 +1,14 @@
 package ProjectBusTicket;
-
 import java.util.Scanner;
 
 public class BusTicketReservationCalcRunner {
+    
+  //------------------- Bus Ticket Reservation Calculator Runner Class ---------------------
     public static void main(String[] args) {
 
     }
 
-    //------------------- Bus Ticket Reservation Calculator Runner Class ---------------------
-
+    //Creating start() method for the initial 
     public static void start() {
         System.out.println("Welcome to the Bus Ticket Reservation Portal!");
         System.out.println("Enter the destination distance in KM:");
