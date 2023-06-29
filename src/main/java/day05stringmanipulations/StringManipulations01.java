@@ -2,17 +2,20 @@ package day05stringmanipulations;
 
 public class StringManipulations01 {
     //--------------- StringManipulation --------------------
-        /*
+     /*
+        Note:
         1. toUpperCase() method converts all characters to upper case
         2. toLowerCase() method converts all characters to lower case
         3. substring (s, e) takes the characters starting from s(inclusive) ending at e (exclusive)
         4. substring(s) takes the characters starting from s (inclusive) to the end of the string
         5. split("a") method splits the String from the given character
-         */
+      */
     public static void main(String[] args) {
+
+        //--------------- Example 1 --------------------
+        //Example 1: Change the full name like initials are in upper cases, other characters
+        // are in lower cases -> TOM HANKS ==> Tom Hanks    or  tom hanks ==> Tom Hanks
         //1.Way:
-        //Example 1: Change the full name like initials are in upper cases, other characters are in lower cases
-        //           TOM HANKS ==> Tom Hanks    or  tom hanks ==> Tom Hanks
         String name = "TOM HANKS";
 
         //Get the first character and change it to upper case
@@ -29,7 +32,8 @@ public class StringManipulations01 {
 
         System.out.println(firstChar + restOfTheFirstName + " " +  firstCharOfLastName + restOfTheLastName);
 
-        //2.Way: change all character to lower case first, then make the initials in upper cases
+        //2.Way:
+        // Change all character to lower case first, then make the initials in upper cases
         String nameInLowerCase = name.toLowerCase();
 
         //change initail of fist name to upper case
