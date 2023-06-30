@@ -7,7 +7,7 @@ public class IfStatement01 {
     //Operators: %modulus operator returns remainder. || -> or operator
 
     public static void main(String[] args) {
-        //Example 1: type a code to check if a number is even or odd.
+        //Example 1: Type a code to check if a number is even or odd.
         int num = 11;
         
         //1. Way
@@ -26,7 +26,7 @@ public class IfStatement01 {
             System.out.println("odd");
         }
 
-        //Example 2: type code to check if initial of a string is upper case or not
+        //Example 2: Type code to check if initial of a string is upper case or not
         String s = "miami";
 
         //1.Way
@@ -45,7 +45,7 @@ public class IfStatement01 {
         } else {
             System.out.println("not upper case");
         }
-        //Example 3. type a code to check if a number is positive, negative or neutral
+        //Example 3: Type a code to check if a number is positive, negative or neutral
         int number = 23;
 
         if (number > 0) {
@@ -56,7 +56,7 @@ public class IfStatement01 {
             System.out.println("negative");
         }
         
-        //Example .4 type a code to print the week day name when you enter number
+        //Example 4: Type a code to print the week day name when you enter number
         //1 -- Sunday, 2 -- Monday, etc.
         int dayNumber = 2;
 
