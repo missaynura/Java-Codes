@@ -1,15 +1,15 @@
 package day07ifstatement;
 
 public class IfStatement01 {
-
-    //if it rains I will cancel the picnic
-    //%modulus operator returns remainder
-    // || or operator
+    
+    //--------------- If Statement --------------------
+    //Logic: if it rains I will cancel the picnic
+    //Operators: %modulus operator returns remainder. || -> or operator
 
     public static void main(String[] args) {
-
-        //e1: type a code to check if a number is even or odd.
+        //Example 1: type a code to check if a number is even or odd.
         int num = 11;
+        
         //1. Way
         if (num % 2 == 0) {
             System.out.println("even");
@@ -26,11 +26,10 @@ public class IfStatement01 {
             System.out.println("odd");
         }
 
-        //e2: type code to check if initial of a string is upper case or not
+        //Example 2: type code to check if initial of a string is upper case or not
         String s = "miami";
 
         //1.Way
-
         if (s.charAt(0) >= 'A' && s.charAt(0) <= 'Z') {
             System.out.println("it is upper case ");
         }
@@ -38,6 +37,7 @@ public class IfStatement01 {
         if (s.charAt(0) < 'A' || s.charAt(0) > 'Z') {
             System.out.println("not upper case");
         }
+        
         //2.Way with else
 
         if (s.charAt(0) >= 'A' && s.charAt(0) <= 'Z') {
@@ -45,7 +45,7 @@ public class IfStatement01 {
         } else {
             System.out.println("not upper case");
         }
-        //e3. type a code to check if a number is positive, negative or neutral
+        //Example 3. type a code to check if a number is positive, negative or neutral
         int number = 23;
 
         if (number > 0) {
@@ -55,8 +55,9 @@ public class IfStatement01 {
         } else {
             System.out.println("negative");
         }
-        //e.4 type a code to print the week day name when you enter number
-        //   1 -- Sunday, 2 -- Monday, etc.
+        
+        //Example .4 type a code to print the week day name when you enter number
+        //1 -- Sunday, 2 -- Monday, etc.
         int dayNumber = 2;
 
         if (dayNumber == 1) {
