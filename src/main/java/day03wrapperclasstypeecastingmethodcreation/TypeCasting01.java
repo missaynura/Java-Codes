@@ -2,7 +2,7 @@ package day03wrapperclasstypeecastingmethodcreation;
 
 public class TypeCasting01 {
     public static void main(String[] args) {
-
+    //--------------- Type Casting --------------------
         // byte - short - int - long - float - double == do Autowidening
         byte b = 25; // max value 127
         short s = b;
