@@ -31,17 +31,17 @@ public class MethodCreation01 {
         return a * b * c;
     }
 
-    // Example 2: create a method that calculates the perimeter of a rectangle
+    // Example 2: Create a method that calculates the perimeter of a rectangle
     public static int getPerimeterOfRectangle(int a, int b) {
         return 2 * a + 2 * b;
     }
 
-    // Example 3: create a method that calculates the surface area of a rectangular prism
+    // Example 3: Create a method that calculates the surface area of a rectangular prism
     public static double getSurfaceOfRectangularPrism(double a, double b, double c) {
         return 2 * b * c + 2 * a * c + 2 * a * b;
     }
 
-    //Example 4: create a method that prints the given name on the console with ! at the end
+    //Example 4: Create a method that prints the given name on the console with ! at the end
     //      Tom == Tom!
     public static void printNameWithExclamationMark(String name) {
         System.out.println(name + "!");
