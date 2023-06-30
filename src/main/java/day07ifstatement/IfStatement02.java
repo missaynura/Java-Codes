@@ -4,11 +4,15 @@ import java.util.Scanner;
 
 public class IfStatement02 {
     public static void main(String[] args) {
-        //e1. ask user to enter day name then print if the day name is week day or weekend day
-        //  Monday -- weekday   Sunday -- weekend
+
+        //--------------- If Statement --------------------
+        
+        //Example 1. ask user to enter day name then print if the day name is week day or weekend day
+        //Monday -- weekday   Sunday -- weekend
         Scanner input = new Scanner(System.in);
         System.out.println("enter a day name");
         String dayName = input.next(); //.next because a single line
+        
         //1. way
         if (dayName.equalsIgnoreCase("Sunday")) {
             System.out.println("weekend");
