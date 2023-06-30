@@ -4,9 +4,10 @@ import java.util.Scanner;
 
 public class IfStatement03 {
     public static void main(String[] args) {
+        //--------------- If Statement --------------------
         /*
-        ask user to enter his age, then print his situation according to the given table
-        0-4==baby  5-12==kid  13-20==teen 21-30==adult 31-?==undefined
+            ask user to enter the age, then print according to the given table
+            0-4==baby  5-12==kid  13-20==teen 21-30==adult 31-?==undefined
          */
 
         Scanner input = new Scanner(System.in);
