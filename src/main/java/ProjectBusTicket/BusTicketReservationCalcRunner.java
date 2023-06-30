@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class BusTicketReservationCalcRunner {
     
   //------------------- Bus Ticket Reservation Calculator Runner Class ---------------------
+    
     public static void main(String[] args) {
 
     }
@@ -18,7 +19,7 @@ public class BusTicketReservationCalcRunner {
         int ticketType;
         boolean ticketTypeExists;
 
-        //test if ticket type is being entered correctly, if not warning error
+        //Test if ticket type is being entered correctly, if not warning error
         do {
             System.out.println("Choose the type of trip:");
             System.out.println("Enter 1 for One-Way\n 2 for Round-Trip");
