@@ -2,7 +2,7 @@ package ProjectPlaneTicket;
 
 public class PassengerTicket {
 
-  //create a random ID for each passengerTicket
+  //Create a random ID for each passengerTicket
   String passengerName;
   String passengerLastName;
   String passengerAge;
