@@ -1,7 +1,7 @@
 package day06stringmanipulations;
 
 public class StringManipulations02 {
-     //--------------- StringManipulation --------------------
+     //--------------- String Manipulation --------------------
     /*
     Note
         1. = assignment operator, == equals operator
