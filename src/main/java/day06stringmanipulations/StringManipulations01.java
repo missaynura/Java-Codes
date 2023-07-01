@@ -8,7 +8,8 @@ public class StringManipulations01 {
         1. endsWith() method checks the last character of a string if it is matching with a specific character
         2. charAt() method return a specific character by using index
             difference between substring() and cahrAt()
-            - charAt() is just for getting a single character, substring() can be used to get a single or multiple charaters
+            - charAt() is just for getting a single character, substring() can be used to get a single 
+                or multiple charaters
             - charAt() returns char data type, substring() returns string data type.
         3. replace() method is for replacing a character with another character
         4. valueOf() method converts Strings which is in numeric data format to numeric data
