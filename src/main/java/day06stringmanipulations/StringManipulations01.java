@@ -10,7 +10,7 @@ public class StringManipulations01 {
             difference between substring() and cahrAt()
             - charAt() is just for getting a single character, substring() can be used to get a single 
                 or multiple charaters
-            - charAt() returns char data type, substring() returns string data type.
+            - charAt() returns char data type, substring() returns string data type
         3. replace() method is for replacing a character with another character
         4. valueOf() method converts Strings which is in numeric data format to numeric data
         5. trim() method removes space character from the beginning and from the end
