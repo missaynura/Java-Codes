@@ -2,7 +2,7 @@ package day08nestedifternary;
 
 public class Ternary01 {
     public static void main(String[] args) {
-         //---------------------- Nested If Ternary ------------------------
+         //---------------------- Nested If Ternary -----------------------
         //Example 1: type a code to check if a number is positive or not
         // use if-else statement
 
