@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class NestedIf02 {
     public static void main(String[] args) {
-
+    //---------------------- Nested If Ternary ------------------------
         /*
                 Type java code by using nested if.
                 Write a program to check if a year is "leap year" or not.
@@ -29,6 +29,5 @@ public class NestedIf02 {
                 System.out.println("not leap year");
             }
         }
-
     }
 }
