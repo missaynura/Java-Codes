@@ -2,7 +2,8 @@ package day08nestedifternary;
 
 public class Ternary01 {
     public static void main(String[] args) {
-        //ex1. type a code to check if a number is positive or not
+         //---------------------- Nested If Ternary ------------------------
+        //Example 1: type a code to check if a number is positive or not
         // use if-else statement
 
         int num = 12;
@@ -17,25 +18,25 @@ public class Ternary01 {
         String result = num > 0 ? "Positive" : "not positive";
         System.out.println(result);
 
-        //ex2. type code to check if a number is even or odd
+        //Example 2: type code to check if a number is even or odd
         int number = 12;
         String r = number % 2 == 0 ? "even" : "odd";
         System.out.println(r);
 
-        //ex3. type code to find the minimum of two integers
+        //Example 3: type code to find the minimum of two integers
         int i = 12;
         int k = 21;
 
         int min = i < k ? i : k;
         System.out.println(min);
 
-        //ex4. type code to calculate the absolute value of a number
+        //Example 4: type code to calculate the absolute value of a number
         //    5 == 5,   -5 == -1*-5 (negative should be multipl by -1)  0 == 0
         int m = 5;
         int abs = m > 0 ? m : -1 * m;
         System.out.println(abs);
 
-        //Ex. 5 you have 2 integers
+        //Example 5: you have 2 integers
         // if both are positive do multiplication
         // otherwise return "i do not know how to multiply"
         int a = 5;
@@ -44,7 +45,7 @@ public class Ternary01 {
         Object d = a > 0 && b > 0 ? a * b : "I do not know how to multiply";
         System.out.println(d);
 
-        // Ex.6 you have 2 integers
+        // Example 6: you have 2 integers
         // if both are positive do addition, otherwise return the maximum one
         int f = 15;
         int g = 12;
