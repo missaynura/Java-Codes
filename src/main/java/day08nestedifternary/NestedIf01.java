@@ -1,8 +1,8 @@
 package day08nestedifternary;
-
 import java.util.Scanner;
 
 public class NestedIf01 {
+    //---------------------- Nested If Ternary ------------------------
     /*
         Time Consuming
         Note: nested structure in Java needs too much time to be executed,
@@ -10,7 +10,6 @@ public class NestedIf01 {
      */
 
     public static void main(String[] args) {
-
         /*
             Ask user to enter a password
             If the initial of the password is uppercase
