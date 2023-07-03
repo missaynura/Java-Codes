@@ -2,7 +2,10 @@ package day09nestedternaryswitch;
 
 public class Switch03 {
     public static void main(String[] args) {
-        //type code to print vowels for a,e,i,o,u and not vowels for other letters
+
+        //----------------------- Switch Statement -------------------------------
+
+        //Type code to print vowels for a,e,i,o,u and not vowels for other letters
         String ch = "e";
         switch (ch.toLowerCase()) {
             case "a":
