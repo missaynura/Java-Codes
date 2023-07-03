@@ -2,7 +2,10 @@ package day09nestedternaryswitch;
 
 public class Switch01 {
     public static void main(String[] args) {
-        //Ex1. type code to display day numbers for the day names
+        
+     //----------------------- Nested Ternary -------------------------------
+        
+        //Example 1: type code to display day numbers for the day names
         // sunday == 1, etc
 
         //1.way if-else-if
