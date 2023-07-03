@@ -2,6 +2,7 @@ package day09nestedternaryswitch;
 
 public class NestedTernary01 {
     public static void main(String[] args) {
+        //----------------------- Nested Ternary -------------------------------
           /*
                 Type java code by using nested if.
                 Write a program to check if a year is "leap year" or not.
