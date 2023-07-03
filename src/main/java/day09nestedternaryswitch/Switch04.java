@@ -2,11 +2,16 @@ package day09nestedternaryswitch;
 
 import java.util.Scanner;
 
-//Switch Statement can be used with String, int, char,
-// but cannot be used with long, double, float, boolean
 public class Switch04 {
     public static void main(String[] args) {
-        // create a calculator does +, -, *, /, %
+
+        //----------------------- Switch Statement -------------------------------
+        /*
+            Note:   Switch Statement can be used with String, int, char,
+                    but cannot be used with long, double, float, boolean
+         */
+
+        //Create a calculator does +, -, *, /, %
         Scanner input = new Scanner(System.in);
 
         System.out.println("enter the operation among +, -, *, /, %");
