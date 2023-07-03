@@ -2,11 +2,14 @@ package day10forloops;
 
 public class ForLoop01 {
     public static void main(String[] args) {
+               
+        //----------------------- For-Loops -------------------------------
+
         /*
-        1. loops are used for repeated actions in Javayu
-        2. there are 4 loops in Java, 1. for-loop 2. while-loop, 3. do-while loop 4. for-each loop
+            1. loops are used for repeated actions in Javayu
+            2. there are 4 loops in Java, 1. for-loop 2. while-loop, 3. do-while loop 4. for-each loop
          */
-        //e1. type code to print Hi 5 times on the console
+        //Example 1: type code to print Hi 5 times on the console
         //1. way = this is wet code
         System.out.println("Hi");
         System.out.println("Hi");
@@ -18,12 +21,12 @@ public class ForLoop01 {
         }
 
 
-        //e2. type code to print integers = from 12 to 9
+        //Example 2: type code to print integers = from 12 to 9
         for (int i = 12; i > 9; i--) {
             System.out.println(i);
         }
 
-        //e3. type code to print even integers from 7 to 12 == math language
+        //Example 3: type code to print even integers from 7 to 12 == math language
         for (int i = 8; i < 13; i += 2) {
             System.out.println(i);
         }
