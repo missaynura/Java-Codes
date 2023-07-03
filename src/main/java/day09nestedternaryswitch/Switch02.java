@@ -4,7 +4,10 @@ import java.util.Scanner;
 
 public class Switch02 {
     public static void main(String[] args) {
-        //if user enters 9 your code will print September, etc
+        
+        //----------------------- Switch Statement -------------------------------
+
+        //If user enters 9 your code will print September, etc
         // if 5 print May, etc.
         Scanner input = new Scanner(System.in);
         System.out.println("enter month name");
