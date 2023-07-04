@@ -4,7 +4,9 @@ import java.util.Scanner;
 
 public class WhileLoop01 {
     public static void main(String[] args) {
-        //e1. type code to print integers from 3 to 6 on the console
+                
+        //------------------------ Do-While - Loops --------------------------
+        //Example 1: Type code to print integers from 3 to 6 on the console
         //1. way
         for (int i = 3; i < 7; i++) {
             System.out.print(i + " ");
@@ -16,9 +18,9 @@ public class WhileLoop01 {
             System.out.print(i + " ");
             i++;
         }
-
         System.out.println();
-        //e2. type code to print odd integers from 10 to 4 on the console
+        
+        //Example 2: Type code to print odd integers from 10 to 4 on the console
         int k = 10;
         while (k > 3) {
             if (k % 2 != 0) {
@@ -27,7 +29,8 @@ public class WhileLoop01 {
             k--;
         }
         System.out.println();
-        //e3. type code to find the sum of the even integers from 10 to 13
+        
+        //Example 3: Type code to find the sum of the even integers from 10 to 13
         int a = 10;
         int sum = 0;
         while (a < 14) {
@@ -38,7 +41,7 @@ public class WhileLoop01 {
         }
         System.out.println(sum);
 
-        //e4. type java code by using while loop ***************** leanr this question*********
+        //Example 4: Type java code by using while loop ***************** leanr this question*********
         //write a program that promts the user to input an integer
         //it should then find the sum of the digits of that number
         //123 == 1+2+3 =6
@@ -51,7 +54,7 @@ public class WhileLoop01 {
         }
         System.out.println(sumOfDigits);
 
-        //e5. type java code by using while loop, write a program that the user to input
+        //Example 5: Type java code by using while loop, write a program that the user to input
         // a number. It should then print the multiplication table of that number
         //3x1 =3   3x2 =6 3x3=9
         Scanner input = new Scanner(System.in);
