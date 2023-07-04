@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class WhileLoop02 {
     public static void main(String[] args) {
+        
+        //------------------------ While - Loops --------------------------
         /*
             1.Example: Write a Java Program to Print Rectangle Star Pattern using For Loop
             ****
