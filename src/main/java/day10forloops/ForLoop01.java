@@ -6,9 +6,9 @@ public class ForLoop01 {
         //----------------------- For-Loops -------------------------------
 
         /*
-            1. loops are used for repeated actions in Javayu
-            2. there are 4 loops in Java, 1. for-loop 2. while-loop, 3. do-while loop 4. for-each loop
-         */
+            1. Loops are used for repeated actions in Javayu
+            2. There are 4 loops in Java, 1. for-loop 2. while-loop, 3. do-while loop 4. for-each loop
+        */
         //Example 1: type code to print Hi 5 times on the console
         //1. way = this is wet code
         System.out.println("Hi");
