@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class NestedForLoop02 {
     public static void main(String[] args) {
+                
+     //------------------------ Nested For - Loops --------------------------
+
       /*
          1.Example: Type code to get the output like
                      1
