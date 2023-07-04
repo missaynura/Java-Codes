@@ -4,8 +4,11 @@ import java.util.Scanner;
 
 public class NestedForLoop01 {
     public static void main(String[] args) {
+
+        //------------------------ Nested For - Loops --------------------------
+
         /*
-            1.Example:Type code to get the output like
+            1.Example: Type code to get the output like
                         Week: 1
                           Day: 1
                           Day: 2
@@ -30,7 +33,7 @@ public class NestedForLoop01 {
         }
 
         /*
-            2.Example: Write a Java Program to Print Rectangle Star Pattern using For Loop
+            Example 2: Write a Java Program to Print Rectangle Star Pattern using For Loop
             ****
             ****
             ****
