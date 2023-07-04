@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class DoWhileLoop01 {
     public static void main(String[] args) {
                 
-        //------------------------ While - Loops --------------------------
+        //------------------------ Do-While - Loops --------------------------
 
         /*
             while loop checks the condition first then executes the loop body
