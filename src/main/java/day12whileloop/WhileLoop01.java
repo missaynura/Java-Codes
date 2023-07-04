@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class WhileLoop01 {
     public static void main(String[] args) {
                 
-        //------------------------ Do-While - Loops --------------------------
+        //------------------------ While - Loops --------------------------
         //Example 1: Type code to print integers from 3 to 6 on the console
         //1. way
         for (int i = 3; i < 7; i++) {
