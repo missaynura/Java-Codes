@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class ArrayList01 {
     public static void main(String[] args) {
+        //--------------------- ArrayList ---------------------------
         /*
         1.ArrayLists are for storing multiple data in the same data type
         2.arrays are fixed in length, but arrayLists are flexible in size
