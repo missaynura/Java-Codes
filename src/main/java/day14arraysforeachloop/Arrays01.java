@@ -4,12 +4,13 @@ import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Arrays01 {
-    /*
-    1.Array can contain just "primitive" data types and "references"
-     */
+    //---------------------- Arrays -----------------------------
+
+    //1.Array can contain just "primitive" data types and "references"
+
     public static void main(String[] args) {
 
-        //e1. create an integer array with 4 elements, then find the sum of all elements
+        //Exercise 1: create an integer array with 4 elements, then find the sum of all elements
         int nums[] = new int[4];
         System.out.println(Arrays.toString(nums));//[0, 0, 0, 0]
         nums[0] = 12;
@@ -25,7 +26,7 @@ public class Arrays01 {
         System.out.println(sum);
 
 
-        //e2. create a string array with the length 5, print the elements whose length is more than 6 on the console.
+        //Exercise 2: create a string array with the length 5, print the elements whose length is more than 6 on the console.
         String[] cities = new String[5];
         System.out.println(Arrays.toString(cities)); //[null, null, null, null, null] for non-primitives Java uses null as default
         cities[0] = "Miami";
@@ -41,7 +42,7 @@ public class Arrays01 {
             }
 
 
-            //e3. create a string array with the length 5, print the elements before "London" on the console.
+            //Exercise 3: create a string array with the length 5, print the elements before "London" on the console.
             String[] city = new String[5];
             System.out.println(Arrays.toString(city)); //[null, null, null, null, null] for non-primitives Java uses null as default
             city[0] = "Miami";
@@ -57,7 +58,7 @@ public class Arrays01 {
                     break;
                 }
 
-                //e4. create a string array with the length 5, print the elements except London and Miami
+                //Exercise 4: create a string array with the length 5, print the elements except London and Miami
                 String[] c = new String[5];
                 System.out.println(Arrays.toString(c)); //[null, null, null, null, null] for non-primitives Java uses null as default
                 c[0] = "Miami";
