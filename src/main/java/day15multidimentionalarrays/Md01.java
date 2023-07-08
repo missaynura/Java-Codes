@@ -4,7 +4,9 @@ import java.util.Arrays;
 
 public class Md01 {
     public static void main(String[] args) {
-        //how to create multidimensional array
+        //---------------------- Multidimentional Arrays -----------------------------
+
+        //How to create multidimensional array
         int[][] name = new int[3][2]; // this syntax you will define inner array size as 2, it cannot have bigger length
 
         //Arrays.toString() is to print one dimensional arrays
@@ -24,11 +26,11 @@ public class Md01 {
         name[2][1] = 3;
         System.out.println(Arrays.deepToString(name)); //[[8, 10], [7, 5], [11, 3]]
 
-        //how to create a multidimensional array in short way
+        //How to create a multidimensional array in short way
         int[][] b = {{9, 12, 31}, {5, 4}, {8}, {10, 6}};
         System.out.println(Arrays.deepToString(b)); //[[9, 12, 31], [5, 4], [8], [10, 6]]
 
-        //e1. create a multidimensional array and find the sum of all elements in the multidimensional array
+        //Exercise 1: create a multidimensional array and find the sum of all elements in the multidimensional array
         int [][] c = {{4, 5}, {9, 11, 6}};
                             //{{4, 5}, {9, 11, 6}}
         int sum = 0;
@@ -41,7 +43,7 @@ public class Md01 {
 
         System.out.println(sum);
 
-        //e2. type code to find the total number of elements in a multidimensional array
+        //Exercise 2: type code to find the total number of elements in a multidimensional array
         String [][] names = {{"Tom"}, {"Jim", "Ali"}, {"Mark", "Jack", "Brad"}};
 
         int total = 0;
@@ -51,5 +53,4 @@ public class Md01 {
         System.out.println(total);
 
     }
-
 }
