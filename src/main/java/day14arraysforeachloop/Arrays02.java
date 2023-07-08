@@ -5,10 +5,11 @@ import java.util.Scanner;
 
 public class Arrays02 {
     public static void main(String[] args) {
+        //---------------------- Arrays -----------------------------
 
-        //e1. type code lets user enter many students names into an array.
+        //Exercise 1: type code lets user enter many students names into an array.
         //whenever user wants he should be able to quit
-        // when I quit or complete I should be able to see all elements on the console
+        //when I quit or complete I should be able to see all elements on the console
         Scanner input = new Scanner(System.in);
         System.out.println("enter the number of students you want to add");
         int n = input.nextInt();
