@@ -4,9 +4,13 @@ import java.util.ArrayList;
 
 public class ArrayList01 {
     public static void main(String[] args) {
-        // Interview question, deleting the repetition, by creating a new list, and put the elements into the new list one by one
 
-        //e1. type code to find the number of different elements in an arraylist
+        //----------------------- Array List --------------------------------
+
+        // Interview question, deleting the repetition, by creating a new list, 
+        //and put the elements into the new list one by one
+
+        //Example 1: Type code to find the number of different elements in an arraylist
         // [2, 3, 1, 2, 1, 5, 3] == [2,3,1,5] ==4
         ArrayList<Integer> nums = new ArrayList<>();
         nums.add(2);
@@ -28,7 +32,7 @@ public class ArrayList01 {
         System.out.println(newNums);
         System.out.println(newNums.size());
 
-        //e2. type code to increase salaries in a list like if the salary is less than 10000
+        //Example 2: Type code to increase salaries in a list like if the salary is less than 10000
         // increase it 20% otherwise increase it by adding 500usd
         ArrayList<Double> salaries = new ArrayList<>();
         salaries.add(9810.0);
