@@ -2,7 +2,9 @@ package day18arraylists;
 
 public class Interview01 {
     public static void main(String[] args) {
-        //e1. swap the given two integers             INTERVIEW quesiton
+        //----------------------- Array List -------------------------------
+
+        //Example 1: Swap the given two integers             INTERVIEW quesiton
         //int a =12; and int b = 5; == a = 5 and b =12
 
         int a = 12;
