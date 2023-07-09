@@ -6,7 +6,9 @@ import java.util.Collections;
 
 public class ArrayList01 {
     public static void main(String[] args) {
-        //e1. type code to check if the elements in a string arraylist are in alphabetical order or not
+
+        //----------------------- Array List ----------------------------------
+        //Example 1: Type code to check if the elements in a string arraylist are in alphabetical order or not
         ArrayList<String> cities = new ArrayList<>();
         cities.add("Miami");
         cities.add("Tampa");
@@ -28,7 +30,7 @@ public class ArrayList01 {
             System.out.println("elements are not in alphabetical order");
         }
 
-        //e2. type code to find the closest values in an integer list
+        //Example 2: Type code to find the closest values in an integer list
         // [12, 31, 15, 32, 54] == 31, 32
 
         ArrayList<Integer> ages = new ArrayList<>();
@@ -55,7 +57,7 @@ public class ArrayList01 {
         }
 
 
-        //e3. type code to find the sum of the elements if they are different from 31 and 54
+        //Example 3: Type code to find the sum of the elements if they are different from 31 and 54
         // [12, 31, 15, 32, 54] == 12 + 15 + 32 = 59
         ArrayList<Integer> nums = new ArrayList<>();
         nums.add(12);
@@ -73,7 +75,7 @@ public class ArrayList01 {
         }
         System.out.println(sum);//59
 
-        //e4. type code to check if all elements are unique or not in a list
+        //Example 4: Type code to check if all elements are unique or not in a list
         // [12, 31, 15, 32, 54] == unique
         ArrayList<Integer> n = new ArrayList<>();
         n.add(12);
@@ -97,6 +99,5 @@ public class ArrayList01 {
         if (counter == n.size()) {
             System.out.println("all elements are unique");
         }
-
     }
 }
