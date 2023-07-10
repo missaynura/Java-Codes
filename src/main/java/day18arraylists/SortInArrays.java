@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class SortInArrays {
     public static void main(String[] args) {
-
+        //------------------------ Arrays -------------------------------
         char [] arr = {'b', 'e', 'a', 'd'};
         Arrays.sort(arr);
         // how to sort array elements in natural order
