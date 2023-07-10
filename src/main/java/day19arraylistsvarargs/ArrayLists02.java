@@ -7,7 +7,10 @@ import java.util.Scanner;
 
 public class ArrayLists02 {
     public static void main(String[] args) {
-        //e2. ask user to enter an integer from 1 to 10
+
+        //---------------------- Array List and Varargs ---------------------------
+
+        //Example 1: ask user to enter an integer from 1 to 10
         //if the number exists in the database change the number to bingo
         // if it doesnt exist in the database add it into the DB
         //if all records in DB are bingo, give message to user you won
