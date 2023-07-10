@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class ArrayLists01 {
     public static void main(String[] args) {
-
+        //---------------------- Array List and Varargs ---------------------------
         List<String> emailDb = new ArrayList<>();
         emailDb.add("abc@gmail.com");
         emailDb.add("bcd@gmail.com");
@@ -17,7 +17,7 @@ public class ArrayLists01 {
         emailDb.add("ac@gmail.com");
         emailDb.add("bd@gmail.com");
 
-        //e1. ask user to create an email address, if the email is unused we will accept it as email address
+        //Example 1: ask user to create an email address, if the email is unused we will accept it as email address
         // if the email is used give a message to user and create a unique email address for the user
 
         Scanner input = new Scanner(System.in);
