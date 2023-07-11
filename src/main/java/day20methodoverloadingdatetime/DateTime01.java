@@ -9,6 +9,8 @@ import java.util.Scanner;
 
 public class DateTime01 {
     public static void main(String[] args) {
+//-------------------- Date of Week -------------------------
+        
         //How to get current date
         LocalDate currentDate=LocalDate.now();
         System.out.println(currentDate);//2023-04-18
@@ -27,7 +29,7 @@ public class DateTime01 {
         System.out.println(currentDate.plusYears(3).plusMonths(2).plusDays(12));//2026-06-30
         System.out.println(currentDate.minusYears(4).minusMonths(23).minusDays(11));//2017-05-07
 
-        //E1.: john was born 12 years 5 months 11 days ago. type code to find the day name of John's birth date
+        //Example 1: john was born 12 years 5 months 11 days ago. type code to find the day name of John's birth date
         System.out.println(currentDate.minusYears(12).minusMonths(5).minusDays(23).getDayOfWeek());//TUESDAY
 
         //how to compare two dates
@@ -38,7 +40,7 @@ public class DateTime01 {
         System.out.println(dobTom.isAfter(dobJim)); //true
         System.out.println(dobJim.isBefore(dobTom));//true
 
-        //E2. type code for booking application. if booking date is before current date give an error message booking date cannot be past date
+        //Example 2: Type code for booking application. if booking date is before current date give an error message booking date cannot be past date
         // if booking date equals current date give a message like we will call you when we have availability
         // if booking date is after current date give a message like the ticket was booked.
 
@@ -62,7 +64,7 @@ public class DateTime01 {
             System.out.println("the ticket was booked");
         }
 
-        //e3. type code to find the day name of your birth
+        //Example 3: Type code to find the day name of your birth
         LocalDate myDob=LocalDate.of(1994, 2, 11);
         DayOfWeek dayNme = myDob.getDayOfWeek();
         System.out.println(dayNme);//Friday
