@@ -1,18 +1,20 @@
 package day22stringbuilderstringbuffer;
 
 public class StringBuffer01 {
+    
+//--------------------- StringBuilder & StringBuffer ---------------------------
 
     /*
-    1. StringBuffer is a class in Java and it gives us String
-    2. StringBuffer is mutable like StringBuilder
-    3. StringBuffer is thread-safe and synchronized, but StringBuilder neither thread-safe nor synchronized
-    4. StringBuffer was created in Java5, StringBuilder was created after StringBuffer
-    5. StringBuilder has less features than StringBuffer, thats why it works faster than StringBuffer
-
-    If you need String, you have 3 options in Java:
-    1. String Class: it will give you immutable Strings (immutable opens new contaner every time a String updated)
-    2. StringBuilder: it gives you mutable, non-thread-safe and non-syncronized String
-    3. StringBuffer: it gives you mutable, thread-safe and syncronized String
+        1. StringBuffer is a class in Java and it gives us String
+        2. StringBuffer is mutable like StringBuilder
+        3. StringBuffer is thread-safe and synchronized, but StringBuilder neither thread-safe nor synchronized
+        4. StringBuffer was created in Java5, StringBuilder was created after StringBuffer
+        5. StringBuilder has less features than StringBuffer, thats why it works faster than StringBuffer
+    
+        If you need String, you have 3 options in Java:
+        1. String Class: it will give you immutable Strings (immutable opens new contaner every time a String updated)
+        2. StringBuilder: it gives you mutable, non-thread-safe and non-syncronized String
+        3. StringBuffer: it gives you mutable, thread-safe and syncronized String
      */
     public static void main(String[] args) {
     StringBuffer sbf1 = new StringBuffer("Sython");
