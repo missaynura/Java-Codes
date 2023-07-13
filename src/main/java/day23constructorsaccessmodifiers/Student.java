@@ -4,10 +4,12 @@ public class Student {
 //--------------------- AccessModifiers --------------------
 
     
-    //if a class member is private it means it cannot be visible /
-    //accessible from other classes
-    //so by making a class member private, it means we are hiding
-    //the class member inside the class
+    /*
+        if a class member is private it means it cannot be visible /
+        accessible from other classes
+        so by making a class member private, it means we are hiding
+        the class member inside the class
+    */
     private String stdID="TH20211704";
 
     //to make a class member default, dont type any access modifier
