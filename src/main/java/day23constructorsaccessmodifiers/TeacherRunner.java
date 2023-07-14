@@ -2,6 +2,7 @@ package day23constructorsaccessmodifiers;
 
 public class TeacherRunner {
     public static void main(String[] args) {
+        //------------------- Teacher Runner -------------------
         Teacher t1 = new Teacher(45);
         Teacher t2 = new Teacher(45);
         Teacher t3 = new Teacher(45);
