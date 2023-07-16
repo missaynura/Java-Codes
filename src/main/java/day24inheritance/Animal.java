@@ -1,6 +1,7 @@
 package day24inheritance;
 
 public class Animal {
+    //------------------ Inheritance ----------------------
     /*
     Notes:
     1. Benefits of "inheritance"
