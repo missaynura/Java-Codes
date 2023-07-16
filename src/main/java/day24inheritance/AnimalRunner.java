@@ -1,6 +1,7 @@
 package day24inheritance;
 
 public class AnimalRunner {
+    //------------------- Inheritance ------------------
 
     public static void main(String[] args) {
         Cat c1 = new Cat();
