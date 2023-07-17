@@ -1,6 +1,7 @@
 package day24inheritance;
 
 public class Car extends Vehicle {
+    //-------------- Car -------------------
     public int age = 8;
     public void move(){
         System.out.println("Cars move..");
