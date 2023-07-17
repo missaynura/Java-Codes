@@ -2,7 +2,7 @@ package day24inheritance;
 
 public class Civic extends Honda {
     public int age = 4;
-
+//---------------------- Inheritance -------------------------
     public void move() {
         System.out.println("Civics move..");
     }
