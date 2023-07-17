@@ -1,6 +1,8 @@
 package day24inheritance;
 
 public class Vehicle {
+    //---------------------- Inheritance -------------------------
+
     /*
     1) Variables and methods with the same name come from bottom to top in inheritance
     2) "this" keyword is for getting variable value from the class itself or calling the method from the class itself
