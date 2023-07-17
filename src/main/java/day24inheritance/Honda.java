@@ -1,6 +1,8 @@
 package day24inheritance;
 
 public class Honda extends Car{
+    //---------------------- Inheritance -------------------------
+
     public int age = 6;
     public void move(){
         System.out.println("Hondas move..");
