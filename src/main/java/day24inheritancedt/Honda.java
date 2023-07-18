@@ -1,6 +1,7 @@
 package day24inheritancedt;
 
 public class Honda extends Vehicle {
+    //---------------- Inheritance --------------------
 
     public void brake(){
         System.out.println("Honda uses perfect engine...");
