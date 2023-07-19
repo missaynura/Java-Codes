@@ -2,6 +2,9 @@ package day24inheritancedt;
 
 public class VehicleRunner {
     public static void main(String[] args) {
+
+       //-------------------- Inheritance -----------------------
+
         Civic myCivic=new Civic();
 
         myCivic.hashCode(); // hashCode() comes from Object Class
