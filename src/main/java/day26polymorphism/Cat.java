@@ -1,6 +1,8 @@
 package day26polymorphism;
 
 public class Cat extends Mammal{
+   //-------------------- Polymorphism -----------------------
+
     @Override
     public void eat() {
         System.out.println("Cats eat...");
