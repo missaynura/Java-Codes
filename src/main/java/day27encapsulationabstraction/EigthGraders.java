@@ -1,6 +1,7 @@
 package day27encapsulationabstraction;
 
 public class EigthGraders extends Courses{
+//---------------------- Encapsulation and Abstraction ---------------------------
 
 
     @Override
