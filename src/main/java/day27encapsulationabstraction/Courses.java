@@ -1,5 +1,5 @@
 package day27encapsulationabstraction;
-
+//---------------------- Encapsulation and Abstraction ---------------------------
 /*
     1. Method without body is called abstract method.
     2. sometimes no child uses the body of the method in the parent class so no need to put body for the method.
