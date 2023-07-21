@@ -1,6 +1,8 @@
 package day28interfacescollections;
 
 public interface Engine extends Details {
+    //--------------------- Interfaces and Collections --------------------------
+
     void run();
     int volume = 6;
     int weight();
