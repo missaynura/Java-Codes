@@ -1,4 +1,5 @@
 package day28interfacescollections;
+//--------------------- Interfaces and Collections --------------------------
 
 /*
     1. Java doenst support multiple inheritance for classes. But if you put
@@ -35,9 +36,6 @@ package day28interfacescollections;
           child interface == parent interface use extends  (same use exends)
           child Class == parent interface use implements
           child interface == parent Class == this is impossible, a Class cannot be the parent of an interface
-
-
-
  */
 
 public class Honda implements Engine, Brake, Ac {
