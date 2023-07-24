@@ -5,6 +5,7 @@ import java.util.LinkedHashSet;
 import java.util.TreeSet;
 
 public class Sets01 {
+     //---------------------------- Collections ------------------------------------
 
     /*
         Sets are for sorting unique data like student ids, emails, etc.
@@ -20,7 +21,6 @@ public class Sets01 {
                             Puts the elements in natural orders == alphabetical and ascending
                             This is the slowest set, as putting the elements in natural order.
                             doesnt accept null as element
-
 
      */
     public static void main(String[] args) {
