@@ -6,6 +6,9 @@ import java.util.List;
 import java.util.ListIterator;
 
 public class Iterators01 {
+    
+     //---------------------------- Iterations ------------------------------------
+
     /*
         1. Iterators do the same with he loops
         2. Loops have infinite loop risk but iterators do not have it
