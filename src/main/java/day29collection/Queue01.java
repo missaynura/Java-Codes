@@ -6,6 +6,7 @@ import java.util.PriorityQueue;
 import java.util.Queue;
 
 public class Queue01 {
+     //---------------------------- Collections ------------------------------------
      /*
             1. Sometimes we need to work with first added element in a collection like in a bank customer line.
             For that kind of scenarios we prefer to use Queues because Queues are expert in "First in First out" (FIFO) scenarios.
