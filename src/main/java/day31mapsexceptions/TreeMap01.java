@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.TreeMap;
 
 public class TreeMap01 {
+ //------------------------------- TreeMap ----------------------------------
 
     /*
      1.TreeMap puts the entries in natural order by using keys.
