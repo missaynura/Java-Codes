@@ -1,7 +1,7 @@
 package day31mapsexceptions;
 
 import java.util.HashMap;
-//------------------------------- Exceptions ----------------------------------
+//------------------------------- HasMap and Exceptions ----------------------------------
 
 /*
         1. when you create a HashMap Java gives you 16 buckets.
