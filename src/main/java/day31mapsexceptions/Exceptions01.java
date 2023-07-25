@@ -1,6 +1,7 @@
 package day31mapsexceptions;
 
 public class Exceptions01 {
+ //------------------------------- Exceptions ----------------------------------
  /*
     1. Every system needs strict rules like traffic rules in cities.
       Java is a system, so it needs some strict rules which are called "Exceptions".
@@ -22,7 +23,7 @@ public class Exceptions01 {
 
     }
 
-    //E1. create a method to divide two integers
+    //Example 1: create a method to divide two integers
     //1.way: not recommended, as you are not a mathematician
     public static int divide1(int a, int b) {
         if (b == 0) {
