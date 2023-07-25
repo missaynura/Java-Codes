@@ -3,6 +3,8 @@ package day31mapsexceptions;
 import java.util.Hashtable;
 
 public class HashTable01 {
+     //------------------------------- HaschTable and Exceptions ----------------------------------
+
     /*
         1. HashTable is thread-safe and synchronized, but HashMap is not.
         2.HashTable puts the elements in random oder.
