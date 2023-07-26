@@ -1,6 +1,7 @@
 package day32exceptions;
 
 public class Exceptions02 {
+    //-------------------------- Exceptions ------------------------------
     /*
      1)When you use "multiple catch block"s after "try-block" the order of "multiple catch block"s does not matter.
       You can put them in any order but following the code order is the best practice
@@ -26,8 +27,9 @@ public class Exceptions02 {
         System.out.println(divideByNumOfCharsInString2(null));//NullPointerException
     }
 
-    //e1. create a method divides an integer converted from a String by 1 less than the number of characters
+    //Exception 1: create a method divides an integer converted from a String by 1 less than the number of characters
     // of the String. String s="240"; == 240/2=120
+    
     //1.Way to handle multiple Exceptions
     public static int divideByNumOfCharsInString1(String s){
        try{
