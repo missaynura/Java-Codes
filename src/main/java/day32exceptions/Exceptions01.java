@@ -1,9 +1,8 @@
 package day32exceptions;
 
 public class Exceptions01 {
-
-
     public static void main(String[] args) {
+        //-------------------------- Exceptions ------------------------------
         System.out.println(getCharFromStringByIndex("Java", 2));//v
         System.out.println(getCharFromStringByIndex("Java", 4));//exceptions
 
@@ -16,10 +15,9 @@ public class Exceptions01 {
         System.out.println(convertStringToInt1("1ab") +1);//NumberFormatException
 
         System.out.println(convertStringToInt2("1ab"));//NumberFormatException
-
     }
 
-    //example1. create a method to get a character from a String by using index
+    //Example 1: create a method to get a character from a String by using index
     public static char getCharFromStringByIndex(String s, int idx){
         try{                //try to get the index
             return s.charAt(idx);
@@ -29,7 +27,7 @@ public class Exceptions01 {
         }
     }
 
-    //example2. create a method to get the number of characters in a String
+    //Example 2: create a method to get the number of characters in a String
     public static int getNumOfCharsInString(String s){
         try{
             return s.length();
@@ -39,7 +37,7 @@ public class Exceptions01 {
         }
     }
 
-    //E3. create a method to convert a String to an Integer
+    //Example 3? create a method to convert a String to an Integer
    //1.Way
     public static int convertStringToInt1(String s){
         try{
