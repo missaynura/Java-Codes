@@ -1,6 +1,7 @@
 package day32exceptions;
 
 public class Exceptions04 {
+    //-------------------------- Exceptions ------------------------------
     /*
         1.finally block is used for the codes that will be executed for every scenario
         like cutting connection with the cloud database
@@ -8,8 +9,8 @@ public class Exceptions04 {
             final: we learned this before
             finally: we learned it here
             finalize: it is a method, it is used by Java before destroying data in memory by Garbage Collector.
-
      */
+    
     public static void main(String[] args) {
         System.out.println(divide(6, 2));
         System.out.println(divide(6, 0));
@@ -26,5 +27,4 @@ public class Exceptions04 {
             System.out.println("The operation is completed");
         }
     }
-
 }
