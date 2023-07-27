@@ -5,8 +5,8 @@ import java.util.Comparator;
 import java.util.List;
 
 public class Lambda02 {
-
     public static void main(String[] args) {
+       //------------------------- Lambda ---------------------------
         List<String> names = new ArrayList<>();
         names.add("Tom");
         names.add("Alex");
@@ -44,7 +44,7 @@ public class Lambda02 {
                 forEach(Utils::printInSameLineWithSpace);
     }
 
-    //Example 2: Print elements on the console by ordering them according to their length
+    //Example 3: Print elements on the console by ordering them according to their length
     //in lower cases and un-repeatedly. If some elements are in the same length put them in alphabetical order
     public static void printDistinctSortedByLengthThenAlphabeticalLowerCase(List<String> names){
         names.
