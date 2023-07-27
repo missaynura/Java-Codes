@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class Lambda01 {
-
+    //------------------------- Lambda ---------------------------
     /*
            Note: normally for distinct elements we should use "Set" to store elements.
            But collect(Collectors.toSet()) method does not let you sort the elements. But we
