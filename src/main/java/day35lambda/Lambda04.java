@@ -11,6 +11,7 @@ import java.util.stream.Collectors;
 
 public class Lambda04 {
     public static void main(String[] args) throws IOException {
+        //----------------------------- Lambda ---------------------------------
         readTextFile();
         System.out.println(checkSpecificWordExistInAllLines("Lambda"));
         System.out.println(getWordsInListDistinctly());
@@ -19,14 +20,14 @@ public class Lambda04 {
 
     }
 
-    //E1: go to LambdaTextFile and print the text in the file on the console
+    //Example 1: go to LambdaTextFile and print the text in the file on the console
     public static void readTextFile() throws IOException {
         Files.
                 lines(Paths.get("src/main/java/day35lambda/LambdaTextFile.txt")).
                 forEach(System.out::println);
     }
 
-    //E2. go to LambdaTextFile and check if the lines have Lambda word
+    //Example 2: go to LambdaTextFile and check if the lines have Lambda word
     public static boolean checkSpecificWordExistInAllLines(String word) throws IOException {
         return Files.
                 lines(Paths.get("src/main/java/day35lambda/LambdaTextFile.txt")).
@@ -69,6 +70,4 @@ public class Lambda04 {
                 reduce(Math::addExact).
                 get();
     }
-
-
 }
