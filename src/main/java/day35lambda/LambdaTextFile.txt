@@ -1,3 +1,5 @@
+//----------------------------- Lambda ---------------------------------
+
 Lambda is a functional programming.
 Lambda prefers to use Method Reference.
 Method Reference uses Class Name, Double colon, and Method Name without parenthesis.
