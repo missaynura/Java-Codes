@@ -1,8 +1,8 @@
 package day35lambda;
 
 public class Utils {
-
     public static int getSumOfDigits(int a){
+    //----------------------------- Lambda ---------------------------------
         int sum = 0;
         while (a>0){
             sum = sum+a%10; //gives you the last digit
