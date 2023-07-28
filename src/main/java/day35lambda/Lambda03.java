@@ -5,9 +5,11 @@ import java.util.Comparator;
 import java.util.List;
 
 public class Lambda03 {
+    //------------------------------ Lambda -----------------------------------
     /*
-        1. We learned structural programming so far, e.g. for-loop structure, while-loop structure, ect.
-        We will learn now functional programming.
+        1. We learned structural programming so far, e.g. for-loop structure, 
+            while-loop structure, ect.
+            We will learn now functional programming.
         2. Functional programming uses Java Methods mostly to type codes.
 
      */
@@ -37,7 +39,7 @@ public class Lambda03 {
         System.out.println(findMax2(nums));
     }
 
-    //example 1: create a method to print even elements in an integer list.
+    //Example 1: create a method to print even elements in an integer list.
     //1.Way: using structural programming
     public static void printEvenElements(List<Integer> myList){
         for (Integer w : myList){
@@ -99,7 +101,7 @@ public class Lambda03 {
 
     }
 
-    //Example 4: create a method to find the element whose value is minimum
+    //Example 5: create a method to find the element whose value is minimum
     //1.Way
     public static int findMin1(List<Integer> myList){
         return myList.
