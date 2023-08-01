@@ -1,5 +1,5 @@
 package day36lambda;
-
+//--------------------- Lambda ----------------------------
         /*
                 If a Class has:
                 1. private variables
