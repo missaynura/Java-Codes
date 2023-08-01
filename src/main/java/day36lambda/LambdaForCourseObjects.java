@@ -6,6 +6,8 @@ import java.util.List;
 
 public class LambdaForCourseObjects {
     public static void main(String[] args) {
+        //--------------------- Lambda ----------------------------
+
         Courses courseTurkishDayTime = new Courses("Turkish Day Time", 124, "Summer", 97.2);
         Courses courseTurkishNightTime = new Courses("Turkish Night Time", 125, "Winter", 98.4);
         Courses courseEnglishDayTime = new Courses("English Day Time", 138, "Spring", 93.8);
@@ -73,5 +75,4 @@ public class LambdaForCourseObjects {
     public static double findAvgNumOfStd(List<Courses> courses){
         return courses.stream().map(t->t.getNumOfStudents()).reduce(0, (t,u)->t+u)/ (double)courses.size();
     }
-
 }
