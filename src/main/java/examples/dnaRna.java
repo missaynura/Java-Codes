@@ -1,12 +1,11 @@
 package examples;
 
 public class dnaRna {
-    // take DNA convert to RNA
-
+    
+    // Example: Converting DNA into RNA
     public static void main(String[] args) {
 
         //Create a method that returns true when x is equal to y; otherwise return false. x & y are numbers
-
         System.out.println(checkEqual( 3,3 ));
 
         /*
@@ -18,12 +17,9 @@ public class dnaRna {
                 ATTAGCGCGATATACGCGTAC
                 CGATATA
                 GTCATACGACGTA
-
          */
 
         System.out.println(dnaToRna("ATTAGCGCGATATACGCGTAC"));
-
-
     }
 
     public static boolean checkEqual(int x, int y){
