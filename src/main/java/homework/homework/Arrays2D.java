@@ -5,10 +5,9 @@ import java.util.Arrays;
 
 public class Arrays2D {
     public static void main(String[] args) {
-
+//---------------- ArrayList ---------------------
 //  Literal arrays
         //  Object arrays
-
         //Example 1 - object array
         // fixed length / size
         String[] name1 = new String[2];
@@ -59,13 +58,9 @@ public class Arrays2D {
         //Arrays.deepToString() is to print multidimensional arrays
 
         String[][] name4 = {
-
                 {"Jake", "Jake2"},
                 {"Paul", "Paul2", "Paul3"}
-
         };
-
-
 
         System.out.println(Arrays.deepToString(name4));
         System.out.println(name4[1][0]);
@@ -79,20 +74,15 @@ public class Arrays2D {
         name5.add(4);
         name5.add(5);
 
-
-
         System.out.println(name5);
         System.out.println(name5);
 
         /*
-
             String[] name1 = new String[5];  OBJECT
             String[] name2 = {}; LITERAL
 
             String[][] name3 = new String[1][2];  OBJECT
             String[][] name3 = {
-
-
 
             }; LITERAL
 
@@ -114,7 +104,6 @@ public class Arrays2D {
                       * .clear()    - remove all elements
                * Many methods we can work with to do additional stuff with the array
 
-
             Other Notes:
                * Arrays.toString --> print elements if array is 1d (without nested arrays)
                * Arrays.deepToString() --> print all elements if array is 2d (nested arrays)
@@ -123,7 +112,5 @@ public class Arrays2D {
               -------
                * think of [] as boxes we stuff inside
          */
-
-
     }
 }
