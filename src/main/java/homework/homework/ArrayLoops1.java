@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class ArrayLoops1 {
     public static void main(String[] args) {
+        //---------------------- ArrayLoops ------------------------
         //Create a method that takes an array containing only numbers
         //and returns the first element
         int[] num1={1,2,3,4,5};
@@ -17,7 +18,6 @@ public class ArrayLoops1 {
 
         System.out.println(firstNumber(num1));
         int numStored=firstNumber(num1);
-
     }
 
     public static int firstNumber(int[] number){
@@ -29,7 +29,6 @@ public class ArrayLoops1 {
      * (int[] number) -> the number word is any name we want to give for the parameters
      * these parameters will be used like variables inside the method body
      * when we call the custom method - the arguments we pass will be used as the parameters
-
      * custom methods must be created outside of the main method
      * static keyword must be added
      * return type must be added - and void is also a return type that we can use if nothing is returned
@@ -37,8 +36,6 @@ public class ArrayLoops1 {
      */
 
     //Write a method to check if an array contains a particular value. Use <ArrayList>
-
-
     public static boolean containsParticularValue(ArrayList<String> checkValue, String seasonName){
 
         String lowerCaseSeason = seasonName.substring(0, 1).toUpperCase();
@@ -46,8 +43,6 @@ public class ArrayLoops1 {
 
         String combine = lowerCaseSeason + rest;
         return checkValue.contains(combine);
-
     }
-
 }
 
