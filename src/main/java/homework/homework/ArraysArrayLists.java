@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class ArraysArrayLists {
     public static void main(String[] args) {
-
+//-------------------- ArrayList -------------------------
 
     /* Create a method that takes two numbers as arguments (num, length) and returns
         an array of multiples of num until the array length reaches length.
@@ -14,13 +14,10 @@ public class ArraysArrayLists {
      */
 
         multiplesOfANumber(3, 2);
-
     }
 
     public static void multiplesOfANumber( int length, int num){
-
         int[] arrayOfMultiples = new int[length];    //create an object with new keyword
-
         int counter = 1;  // we use counter to work with multiples
 
         // use i as counter for the loop
@@ -37,6 +34,5 @@ public class ArraysArrayLists {
             counter++;
         }
         System.out.println( Arrays.toString( arrayOfMultiples ) );
-
     }
 }
