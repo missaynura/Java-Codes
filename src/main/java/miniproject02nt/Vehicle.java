@@ -3,6 +3,7 @@ package miniproject02nt;
 import java.util.Scanner;
 
 public class Vehicle {
+    //------------------- Mini Vehicle Project ---------------
     /*
          Tariff period: December 2023, June 2023
          1st term: June 2023                      2nd term: December 2023
@@ -88,5 +89,4 @@ public class Vehicle {
             }
             return payment;
         }
-
     }
