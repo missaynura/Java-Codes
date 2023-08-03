@@ -4,8 +4,9 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Lottery {
+    //--------------- Mini Lotto Application Project ----------------
     /*
-        Project: Numerical Lotto Application
+       Project: Numerical Lotto Application
 
        Let n random numbers be generated for the ticket.
        Let the lottery result be generated with n random numbers.
@@ -16,7 +17,7 @@ public class Lottery {
        compare result of matching digits and ticket, how many matches there are
        notify the user.
 
-*/
+    */
     /*
     Lottery == random, if we have 5 random lottery, the same should be for ticket so 5.
     Ticket == random
@@ -27,7 +28,6 @@ public class Lottery {
         startLotto(); // calls the method we created through the right click and refactoring
 
     }
-
 
 
     public static void startLotto() {
@@ -61,13 +61,10 @@ public class Lottery {
                         isRepeated = true;
                         break;
                     }
-
                 }
 
             } while (isRepeated);
-
             lottoArr[i] = randomNumber1;
-
             do {
                 isRepeated = false;
                 randomNumber2 = random.nextInt(max + 1 - min) + min;
@@ -77,13 +74,11 @@ public class Lottery {
                         isRepeated = true;
                         break;
                     }
-
                 }
 
             } while (isRepeated);
 
             ticketArr[i] = randomNumber2;
-
         }
         System.out.println("Your ticket is: ");
         for (int i = 0; i < ticketArr.length; i++) {
@@ -107,7 +102,6 @@ public class Lottery {
 
     public static int compareArr(int[] arr, int[] brr) {
         int counter = 0;
-
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < brr.length; j++) {
                 if (arr[i] == brr[j]) {
