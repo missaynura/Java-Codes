@@ -3,33 +3,30 @@ package miniproject02nt;
 import java.util.Scanner;
 
 public class VehicleInsurancePaymentApp {
+       //--------------------- Mini Project: Vehicle Insurance Payment -----------------
        /*
-       Project: Vehicle Insurance Payment Calculator
-       Vehicle types: car, truck, bus, motorcycle
+             Project: Vehicle Insurance Payment Calculator
+             Vehicle types: car, truck, bus, motorcycle
                      -bus: 18-30 seats or 31 and above seats
-      Tariff period: December 2023, June 2023
-      1st term: June 2023                      2nd term: December 2023
-         cars: 2000                            cars: 2500
-         truck: 3000                           truck: 3500
-         bus: type1: 4000 type2: 5000          bus: type1: 4500 type2: 5500
-         motorcycle: 1500                      motorcycle: 1750
-       In case of incorrect entry, the calculation failed warning should be given to the
-       user and the menu should be shown again.
+             Tariff period: December 2023, June 2023
+             1st term: June 2023                      2nd term: December 2023
+                cars: 2000                            cars: 2500
+                truck: 3000                           truck: 3500
+                bus: type1: 4000 type2: 5000          bus: type1: 4500 type2: 5500
+                motorcycle: 1500                      motorcycle: 1750
+             In case of incorrect entry, the calculation failed warning should be given to the
+             user and the menu should be shown again.
 
        - To be able to show the user the application repeatedly, we should present an option to restart the application.
 */
 
     public static void main(String[] args) {
-
     startCalculation();
-
     }
 
     public static void startCalculation(){
         boolean isFailed;
         Scanner input = new Scanner(System.in);
-
-
         do{
             isFailed = false;
 
@@ -81,8 +78,6 @@ public class VehicleInsurancePaymentApp {
                         isFailed=false;
                     }
                 }
-
-
             }else {
                 System.out.println("Calculation cannot be done! Incorrect input.");
                 isFailed=true;
@@ -90,5 +85,4 @@ public class VehicleInsurancePaymentApp {
 
         }while (isFailed);
     }
-
 }
