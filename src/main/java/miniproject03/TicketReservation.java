@@ -3,13 +3,14 @@ package miniproject03;
 import java.util.Scanner;
 
 public class TicketReservation {
+    //-------------------- Mini Project: Bus -----------------------------
     /*  Project: app that calculates bus ticket price based on distance and conditions
-        Distance from User (KM), age and trip type (OneDirection, Going&Returning )
+        Distance from User (KM), age, and trip type (OneDirection, Going&Returning )
         Get seat number information.
 
         Take the payment as 1 USD / km per distance. (*2 for Going&Returning trip)
         First, calculate the total price of the trip and then apply the following rules to the customer according to the conditions;
-        All busses should have in total 32 seats.
+        All buses should have in total 32 seats.
 
        Values received from the user must be valid (distance and age are positive numbers, trip type is 1 or 2).
        Otherwise, "You Have Entered Wrong Data!" A warning should be given.
@@ -21,7 +22,6 @@ public class TicketReservation {
        If the person is over 65 years old, a 30% discount is applied on the ticket price.
       3-Single Seat Fee:
        If the seat number is 3 or a multiple of 3, the ticket price is increased by 20%.
-
 */
     public static void main(String[] args) {
         //create a bus object
@@ -29,16 +29,13 @@ public class TicketReservation {
 
         //create a ticket object to give it to user, after creating the Ticket class
         Ticket ticket=new Ticket();
-
         start(bus, ticket);
-
-
     }
+    
     //create a start method
     public static void start(Bus bus, Ticket ticket){
         Scanner scan= new Scanner(System.in);
         int select;
-
         do {
             //get the data from user
             System.out.println("Welcome to our ticket reservation service");
@@ -72,8 +69,6 @@ public class TicketReservation {
             System.out.println("Press any number to Restart or Press 0 to Quit: ");
             select=scan.nextInt();
         }while (select!=0);
-
-
     }
 
     private static double getTotalPrice(Ticket ticket, int age){
@@ -114,6 +109,4 @@ public class TicketReservation {
         }
         return total;
     }
-
-
 }
