@@ -9,8 +9,8 @@ public class TicketReservation {
         Get seat number information.
 
         Take the payment as 1 USD / km per distance. (*2 for Going&Returning trip)
-        First, calculate the total price of the trip and then apply the following rules to the customer according to the conditions;
-        All buses should have in total 32 seats.
+        First, calculate the total price of the trip and then apply the following rules to the customer 
+        according to the conditions; All buses should have in total 32 seats.
 
        Values received from the user must be valid (distance and age are positive numbers, trip type is 1 or 2).
        Otherwise, "You Have Entered Wrong Data!" A warning should be given.
@@ -24,20 +24,20 @@ public class TicketReservation {
        If the seat number is 3 or a multiple of 3, the ticket price is increased by 20%.
 */
     public static void main(String[] args) {
-        //create a bus object
+        //Create a bus object
         Bus bus=new Bus("34 IST 34");
 
-        //create a ticket object to give it to user, after creating the Ticket class
+        //Create a ticket object to give it to the user, after creating the Ticket class
         Ticket ticket=new Ticket();
         start(bus, ticket);
     }
     
-    //create a start method
+    //Create a start method
     public static void start(Bus bus, Ticket ticket){
         Scanner scan= new Scanner(System.in);
         int select;
         do {
-            //get the data from user
+            //Get the data from the user
             System.out.println("Welcome to our ticket reservation service");
             System.out.println("Enter the distance as KM");
             double distance= scan.nextDouble();
@@ -50,14 +50,14 @@ public class TicketReservation {
             System.out.println("Single seats are more expensive with a 20% rise for each single seat");
             System.out.println(bus.seats);
             int seat= scan.nextInt();
-            //remove the given seatNo from the list
+            //Remove the given seatNo from the list
             bus.seats.remove(String.valueOf(seat));//"1" -->"1" the value of the int should be converted to
             // string and remove that is not in string
 
-            //all values given by the user should be valid
+            //All values given by the user should be valid
             boolean check=type==1 || type==2;
                     if(distance>0 && age>0 && check){
-                        //after getting valid values from the user start price calculation
+                        //After getting valid values from the user start price calculation
                         ticket.distance=distance;// assigns information taken from user via scanner to the distance variable in ticket
                         ticket.typeNo=type;
                         ticket.seatNo=seat;
