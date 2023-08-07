@@ -2,6 +2,7 @@ package oldclass.day01datatypesvariables;
 
 public class Test {
     public static void main(String[] args) {
+        //------------------------ Data Types ---------------------------------    
         Test obj = new Test();
         System.out.println(obj.myMethod('A', 'b'));
     }
