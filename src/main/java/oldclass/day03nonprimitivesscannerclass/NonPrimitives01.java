@@ -4,7 +4,6 @@ public class NonPrimitives01 {
     public static void main(String[] args) {
         //--------------- Non-Primitive Data Types ------------------
         String stdName = "Tom Hanks";
-
         String teacherName = "Tom Hanks";
         String principalName = "Bradd Pitt";
         String parentName = new String("Tom Hanks");
