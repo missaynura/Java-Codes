@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class day07IfElseHW03 {
     public static void main(String[] args) {
-        //ex.3: Ask user to enter a character, then check whether the character is alphabet or not
+        //-------------------- If-Else Statement ---------------------------
+        //Example 3: Ask user to enter a character, then check whether the character is alphabet or not
         Scanner inputChar = new Scanner(System.in);
         System.out.println("Enter a character");
         char ch = inputChar.next().charAt(0);
@@ -17,8 +18,7 @@ public class day07IfElseHW03 {
             System.out.println("not alphabet");
         }
 
-
-        //ex.4: Ask user to enter any name of the week, then get second ,fourth,
+        //Example 4: Ask user to enter any name of the week, then get second ,fourth,
         //and sixth letter of the day name and print them on the console, in the same line.
         //For example; if the user enters “Monday” output will be “ody”
         Scanner input = new Scanner(System.in);
@@ -36,6 +36,5 @@ public class day07IfElseHW03 {
         }else{
             System.out.println("invalid entry");
         }
-
     }
 }
