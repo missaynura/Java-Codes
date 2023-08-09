@@ -2,6 +2,7 @@ package oldclass;
 
 public class day08NestedIf01 {
     public static void main(String[] args) {
+        //----------------- Nested If ------------------------
         //Nested if() Statement Questions
         //Type java code by using nested if statement,
         //If a number is even then check if it is divisible by 3 or not. If it is divisible by 3 the output will be
@@ -25,7 +26,5 @@ public class day08NestedIf01 {
         //If it is ‘z’ the output will be “Valid Password”
         //otherwise the output will be “Invalid Password”
         //For example; zoe ==> Valid password - Zoe ==> Invalid -
-
-
     }
 }
