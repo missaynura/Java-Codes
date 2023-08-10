@@ -3,7 +3,7 @@ package practices.practice01;
 import java.util.Scanner;
 
 public class Q03_Scanner {
-
+    //----------- Practice 01 -------------------
     //Type a code that calculates the hypotenuse.
     public static void main(String[] args) {
 
@@ -15,10 +15,5 @@ public class Q03_Scanner {
 
         double hypotenuse = Math.sqrt((a*a)+(b*b));
         System.out.println("hypotenuse = " + hypotenuse);
-
-
-
-
     }
-
 }
