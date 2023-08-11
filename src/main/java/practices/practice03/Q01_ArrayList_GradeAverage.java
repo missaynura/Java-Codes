@@ -5,8 +5,10 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Q01_ArrayList_GradeAverage {
+    //--------------- Practice ArrayList -----------------------
     /*
-    get as many grades as a teacher wants to enter, and find the number of students who pass the avarage
+        get as many grades as a teacher wants to enter, and find the number of 
+        students who pass the average
      */
     public static void main(String[] args) {
 
@@ -45,5 +47,4 @@ public class Q01_ArrayList_GradeAverage {
         }
         System.out.println("number of students above average = "+ numOfStdAboveAverage);
     }
-
 }
