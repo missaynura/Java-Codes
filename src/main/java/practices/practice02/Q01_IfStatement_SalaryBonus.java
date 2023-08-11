@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Q01_IfStatement_SalaryBonus {
     public static void main(String[] args) {
+        //-------------------- It Statement ----------------------------------------
         /*
         A company decided to give bonus of 5% of salary to employee if his year of service
         is 5 and more than 5 years
@@ -24,7 +25,5 @@ public class Q01_IfStatement_SalaryBonus {
         } else {
             System.out.println("you need to work " + (5 - year) + " years more");
         }
-
     }
-
 }
