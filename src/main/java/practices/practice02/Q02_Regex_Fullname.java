@@ -4,12 +4,13 @@ import java.util.Scanner;
 
 public class Q02_Regex_Fullname {
     public static void main(String[] args) {
+        //------------------------- Regex -----------------------------------
         /*
-        divide the 2-word name and surname you will receive from the user into 2 separate words.
-        print the name and surname on the screen separately
-        Input: John doe
-        Name: John
-        Surname: Doe
+            divide the 2-word name and surname you will receive from the user into 2 separate words.
+            print the name and surname on the screen separately
+            Input: John doe
+            Name: John
+            Surname: Doe
          */
         Scanner scanner = new Scanner(System.in);
         System.out.println("enter your first name and lastname with a space between them");
