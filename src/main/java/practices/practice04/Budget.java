@@ -3,7 +3,7 @@ package practices.practice04;
 public class Budget {
     public static double familyBudget;
     public double pocketMoney;
-
+    //----------------------- Practice -----------------------
     public void getPocketMoney(double moneyToTake){
         if(moneyToTake<familyBudget){
             familyBudget-= moneyToTake;
