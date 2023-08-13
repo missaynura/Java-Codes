@@ -1,6 +1,7 @@
 package practices.practice04;
 
 public class Q03_Static_Budget {
+    //----------------------- Practice ------------------------
     //type a basic home budget
     public static void main(String[] args) {
 
@@ -20,7 +21,5 @@ public class Q03_Static_Budget {
         Budget kid = new Budget();
         kid.getPocketMoney(500);
         Budget.spendFamilyBudget(5000);//1000
-
-
     }
 }
