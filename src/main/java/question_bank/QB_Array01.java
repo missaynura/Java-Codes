@@ -3,10 +3,10 @@ package question_bank;
 import java.util.Arrays;
 
 public class QB_Array01 {
-
+//---------------------- Arrays --------------------------
     /*
-    Exercise 1: Type a program like; given an array whose length is 3, return an array with the
-    elements in reversed order. For example; if the array is [1, 2, 3] output will be [2, 3, 1].
+        Exercise 1: Type a program like; given an array whose length is 3, return an array with the
+        elements in reversed order. For example; if the array is [1, 2, 3] output will be [2, 3, 1].
      */
 
     public static void main(String[] args) {
@@ -22,7 +22,7 @@ public class QB_Array01 {
             }
         }
 
-        //Example 2: create an array with data type int and string and sort them in natural order
+        //Exercise 2: create an array with data type int and string and sort them in natural order
         int numArray[]={5, 4,3,1};
         Arrays.sort(numArray);
         for(int i=0; i<numArray.length; i++){
