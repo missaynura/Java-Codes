@@ -4,12 +4,14 @@ import java.util.ArrayList;
 
 public class QB_DataType01 {
     public static void main(String[] args) {
-        /* You cannot change the value of primitives to anything else.
-           If you need to change the value of primitives,
-           you must declare a new primitive variable and re-assign it a new value.
+        //--------------------------- Arrays -----------------------------------
+        /* 
+                You cannot change the value of primitives to anything else.
+               If you need to change the value of primitives,
+               you must declare a new primitive variable and re-assign it a new value.
 
-         * Non-primitives => Mutable - String, Arrays, Collections
-         * Primitives =>     Immutable - byte, short, int, long, float, double, char, boolean + wrapper classes
+             * Non-primitives => Mutable - String, Arrays, Collections
+             * Primitives =>     Immutable - byte, short, int, long, float, double, char, boolean + wrapper classes
          */
 
         // Example 1 - Primitive int cannot be changed / modified => can only be reassigned
@@ -137,7 +139,5 @@ public class QB_DataType01 {
           StringBuilder myStr = new StringBuilder("My first StringBuilder");
           System.out.println(myStr.reverse());
          */
-
-
     }
 }
