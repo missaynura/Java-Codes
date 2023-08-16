@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class QB_Lists05 {
-
+    //--------------------- Lists -----------------------
     /*
         If the list has 15 as element, change all 15s to 51
         Example: (12, 11, 15, 34, 43) ==> Output is (12, 11, 51, 34, 43)
@@ -33,7 +33,7 @@ public class QB_Lists05 {
         }
 
 
-        //2.Way LinkedList ????????????????????????????????????????????
+        //2.Way LinkedList 
         LinkedList<Integer> n=new LinkedList<>();
         n.add(12);
         n.add(11);
@@ -49,6 +49,5 @@ public class QB_Lists05 {
             }
         }
         System.out.println(n);
-
     }
 }
