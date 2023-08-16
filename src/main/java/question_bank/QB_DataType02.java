@@ -1,6 +1,7 @@
 package question_bank;
 
 public class QB_DataType02 {
+  //------------------- Data Types -------------------------
   /* QB DataTypes 8
 
     * you can create non-static variables + methods outside the main method
@@ -46,5 +47,4 @@ public class QB_DataType02 {
     public void showMe(){
         System.out.println(a1);
     }
-
 }
