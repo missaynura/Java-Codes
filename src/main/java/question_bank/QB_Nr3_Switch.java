@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class QB_Nr3_Switch {
+    //----------------- Switch Statements -------------------------
     /*
     Type a code which prints the all month names starting with the given month numbers.
     Example: If the month number is 9 output will be September October November December
@@ -12,7 +13,8 @@ public class QB_Nr3_Switch {
     - use Scanner class to get user input
     - switch statement instead of if statement, as it is simpler and there is only
     single value that we test
-    - no need for regex as switch will only test for given values, it will use default when the arguments dont match automatically
+    - no need for regex as switch will only test for given values, it will use default 
+        when the arguments dont match automatically
     - last value - default - will be invalid entry
 
     -way 2, use Array
@@ -98,7 +100,5 @@ public class QB_Nr3_Switch {
             default:
                 System.out.println("Invalid entry");
         }
-
     }
-
 }
