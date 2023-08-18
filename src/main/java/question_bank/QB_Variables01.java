@@ -2,17 +2,17 @@ package question_bank;
 
 public class QB_Variables01 {
     public static void main(String[] args) {
-
+    //---------------------- Variables ------------------------
         /*
-         * when using char
-         * it has surrogate or pairs - this means:
-         * if we provide numbers 65 -> surrogate pair would be 'A' from the ASCII table
-         *
-         * If range more than the ASCII table value, so above 127, it used unicode as surrogate pair
-         * You can also write your own unicode by using '\ u' or put into String as well "\ u"
-         * The \ u must be followed by the code that represents the symbol you need
-         *              https://symbl.cc/en/unicode/blocks/  -> practice unicode
-         *              it provides as U+ but need to replace that as \ u and then the number code after it
+             * when using char
+             * it has surrogate or pairs - this means:
+             * if we provide numbers 65 -> surrogate pair would be 'A' from the ASCII table
+             *
+             * If range more than the ASCII table value, so above 127, it used unicode as surrogate pair
+             * You can also write your own unicode by using '\ u' or put into String as well "\ u"
+             * The \ u must be followed by the code that represents the symbol you need
+             *              https://symbl.cc/en/unicode/blocks/  -> practice unicode
+             *              it provides as U+ but need to replace that as \ u and then the number code after it
          */
 
         char asciiNum = 65;                                  // A -> surrogate pair
@@ -32,7 +32,8 @@ public class QB_Variables01 {
         // but 8234567890 is greater than MAX_VALUE of Integer
         // for this reason we must be explicit by using L at end
 
-        /* Q17 Variables
+        /* 
+            Q17 Variables
 
             * when we use whole numbers like 200 or 30, it will be converted to double
             * since the parameter requires double types
@@ -54,12 +55,13 @@ public class QB_Variables01 {
           }
        */
 
-       /* Q19
-        *
-        * int numOfStudents = 342;
-        * => will give an error + You need to make numOfStudents variable static
-        *
-        * The correct format would be => static int numOfStudents = 342;
+       /* 
+           Q19
+            *
+            * int numOfStudents = 342;
+            * => will give an error + You need to make numOfStudents variable static
+            *
+            * The correct format would be => static int numOfStudents = 342;
 
 
         public class Test {
@@ -67,19 +69,14 @@ public class QB_Variables01 {
                 int age = 12;
                 System.out.println(age);
                 System.out.println(numOfStudents);
-            }
+                }
 
-        int numOfStudents = 342;
-    }
+                int numOfStudents = 342;
+            }
         */
 
         System.out.println(numOfStudents); // corrected answer for Q19
-
-
-
     }
 
-
     static int numOfStudents = 342; // for Q19 static field
-
 }
