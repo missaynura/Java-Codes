@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class QuestionBook {
     public static void main(String[] args) {
+        //------------------------ Practice -------------------------------
         Scanner input = new Scanner(System.in);
 
         while(true) {
@@ -37,6 +38,5 @@ public class QuestionBook {
                 break;
             }
         }
-        }
-
+      }
     }
