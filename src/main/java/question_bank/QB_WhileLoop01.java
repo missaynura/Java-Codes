@@ -4,13 +4,12 @@ import java.util.Scanner;
 
 public class QB_WhileLoop01 {
     public static void main(String[] args) {
+        //------------------ While Loop ----------------
         Scanner input = new Scanner(System.in);
 
         //QB [ While Loops ] - 3 => Write code to print 2 4 6 8 on the console
-
         /* Using Loops
-
-        NOTE: if the condition is false, the loop never runs! [ 0 execution is possible ] { for, for each, while }
+            NOTE: if the condition is false, the loop never runs! [ 0 execution is possible ] { for, for each, while }
                          This is NOT the case for do while loops! [ Min. 1 execution at all times ] { do while }
 
 
@@ -39,7 +38,6 @@ public class QB_WhileLoop01 {
             - we need to set the counter inside the loop => for(int i=1; i<=8; i++)
             - while(k<=8) checks the condition for each iteration
             - k++ increments the counter by one, inside the while loop body
-
          */
         // Way 1. using the while loop with counter
         int k = 1;
@@ -51,7 +49,6 @@ public class QB_WhileLoop01 {
         }
 
         // Way 2. using the while loop with control statement
-
         System.out.println("Type your sentence, or enter 0 to exit the loop");
         String userString = input.nextLine();
         System.out.println(userString);
@@ -87,7 +84,5 @@ public class QB_WhileLoop01 {
         for( int w : num){                      // w == behaves like a container and takes each element in array one by one
             System.out.println( w );
         }
-
     }
-
 }
