@@ -5,9 +5,8 @@ import java.util.Arrays;
 
 public class Arrays01 {
     public static void main(String[] args) {
-        /*
-        e1. create an integer array with 5 elements and print elements on console
-         */
+        //-------------- Arrays -----------------
+        //Example 1: create an integer array with 5 elements and print elements on console
 
         int[] i = new int[5];
         i[0] = 1;
@@ -18,7 +17,7 @@ public class Arrays01 {
 
         System.out.println(Arrays.toString(i));
 
-        //e2. print elements that are less than or equal to 7 on console
+        //Example 2: print elements that are less than or equal to 7 on console
 
         int [] num = new int[7];
         num[0] = 1;
@@ -31,6 +30,5 @@ public class Arrays01 {
                 System.out.println(w + " ");
             }
         }
-
     }
 }
